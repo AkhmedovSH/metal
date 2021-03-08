@@ -10,6 +10,22 @@
 	background-color: #EAEAEA;
 }
 
+.bg-1 {
+	background-color: #E9E7E6;
+}
+
+.bg-2 {
+	background-color: #EDEDED;
+}
+
+.color-white {
+	color: #fff;
+}
+
 .main-color {
+	color: #272324;
+}
+
+.title-color {
 	color: #272324;
 }
