@@ -313,7 +313,7 @@
 
 				<div class="row">
 					<div class="col-md-4">
-						<div class="media">
+						<div class="media mb-5">
 							<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
 							<div class="media-body">
 								<p>Создание 3D расчётной схемы каркаса сооружения</p>
@@ -328,7 +328,7 @@
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="media">
+						<div class="media mb-5">
 							<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
 							<div class="media-body">
 								<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
