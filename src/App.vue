@@ -174,9 +174,10 @@
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico1.svg" alt="section_2_bg_overlay" width="144">
 							</div>
-							<p class="color-white">Уникальные здания</p>
+							<p class="color-white text-center">Уникальные здания</p>
 						</div>
 					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type2.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -185,9 +186,58 @@
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico2.svg" alt="section_2_bg_overlay" width="144">
 							</div>
-							<p class="color-white">Уникальные здания</p>
+							<p class="color-white text-center">Мархи</p>
 						</div>
 					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+				</div>
+				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type3.svg') + ')'}">
+					<div class="img-overlay p-absolute"></div>
+					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+						<div class="vertical-center">
+							<div class="d-flex justify-content-center w-100 mb-3">
+								<img src="@/assets/images/slider1/ico3.svg" alt="section_2_bg_overlay" width="144">
+							</div>
+							<p class="color-white text-center">Ангары</p>
+						</div>
+					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+				</div>
+				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type4.svg') + ')'}">
+					<div class="img-overlay p-absolute"></div>
+					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+						<div class="vertical-center">
+							<div class="d-flex justify-content-center w-100 mb-3">
+								<img src="@/assets/images/slider1/ico4.svg" alt="section_2_bg_overlay" width="144">
+							</div>
+							<p class="color-white text-center">Промышленные здания</p>
+						</div>
+					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+				</div>
+				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type5.svg') + ')'}">
+					<div class="img-overlay p-absolute"></div>
+					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+						<div class="vertical-center">
+							<div class="d-flex justify-content-center w-100 mb-3">
+								<img src="@/assets/images/slider1/ico5.svg" alt="section_2_bg_overlay" width="144">
+							</div>
+							<p class="color-white text-center">Мархи</p>
+						</div>
+					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+				</div>
+				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type6.svg') + ')'}">
+					<div class="img-overlay p-absolute"></div>
+					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+						<div class="vertical-center">
+							<div class="d-flex justify-content-center w-100 mb-3">
+								<img src="@/assets/images/slider1/ico6.svg" alt="section_2_bg_overlay" width="144">
+							</div>
+							<p class="color-white text-center">Металлопрокат</p>
+						</div>
+					</div>
+					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 			</VueSlickCarousel>
 		</div>

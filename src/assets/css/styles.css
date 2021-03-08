@@ -348,6 +348,10 @@ video {
 	transition: transform .8s linear;
 }
 
+.product-type-bg-overlay {
+	right: 0;
+}
+
 .section-5 {
 	position: relative;
 }
