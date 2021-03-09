@@ -36,11 +36,12 @@ button:focus {
 }
 
 header {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	z-index: 100;
 	width: 100%;
 	min-height: 120px;
+	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
 }
 
 .header-logo-wrapper {
@@ -49,6 +50,15 @@ header {
 	width: 120px;
 	height: 120px;
 	background-color: #fff;
+}
+
+.header-search-block {
+	width: 120px;
+}
+
+.header-search-block:hover {
+	cursor: pointer;
+	background-color: #EAEAEA;
 }
 
 .header-navbar-nav {
@@ -137,8 +147,8 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
-  background-size: 3px 3px;
+  background-color: #233B57;
+	opacity: 0.3;
   z-index: 2;
 }
 .content-over-video {
@@ -229,8 +239,7 @@ video {
 	opacity: 0.16;
 }
 
-
-.section-2-menu-name {
+.section-breadcrumbs {
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
@@ -243,7 +252,6 @@ video {
 	letter-spacing: 2px;
 	text-align: left;
 }
-
 
 .section-2-title {
 	color: #272324;

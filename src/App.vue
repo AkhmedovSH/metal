@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
 		<header class="bg-f2">
 			<div class="d-flex">
 				<div class="header-logo-wrapper mr-4">
@@ -19,8 +18,10 @@
 						<li><a href="#">контакты</a></li>
 					</ul>
 					<div class="d-flex h-100">
-						<div class="bg-ea vertical-center px-4">
-							<img src="@/assets/images/Icon_search.svg" alt="icon_search">
+						<div class="d-flex justify-content-center header-search-block">
+							<div class="vertical-center ">
+								<img src="@/assets/images/Icon_search.svg" alt="icon_search" width="32">
+							</div>
 						</div>
 						<div class="header-recall-btn cursor-pointer px-5">
 							<div class="color-fb">Заказать звонок</div>
@@ -62,10 +63,11 @@
 		<!-- SECTION 2 -->
 		<div class="d-flex flex-wrap section-2">
 			<div class="section-2-left page-px">
-				<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="section_2_figure">
+				<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
 				<div>
-					<div class="section-2-menu-name mb-5">
-						Коротко о нас
+					<div class="section-breadcrumbs mb-5">
+						<span class="mr-4">Коротко о нас</span>
+						<img src="@/assets/images/line.png" alt="1">
 					</div>
 					<div class="section-2-title">
 						Мы стремимся к тому, чтобы все наши 
@@ -102,8 +104,9 @@
 		<!-- SECTION 3 -->
 		<div class="section-3">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-5">
-					О производстве
+				<div class="section-breadcrumbs mb-5">
+					<span class="mr-4">О производстве</span>
+					<img src="@/assets/images/line.png" alt="1">
 				</div>
 
 				<div class="section-2-title mb-3">
@@ -161,8 +164,8 @@
 		<!-- SECTION 4 -->
 		<div class="section-4 bg-2">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-2">
-					виды производства / Продукция
+				<div class="section-breadcrumbs mb-2">
+					виды производства <span class="mx-3">/</span> Продукция
 				</div>
 			</div>
 
@@ -246,8 +249,8 @@
 		<div class="section-5 bg-2">
 			<img src="@/assets/images/section_5_figure.svg" alt="section_5_figure" style="position: absolute;right: 0;">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-5">
-					Оборудование / наши партнеры
+				<div class="section-breadcrumbs mb-5">
+					Оборудование <span class="mx-3">/</span> наши партнеры
 				</div>
 
 				<div class="section-2-title mb-3">
@@ -272,10 +275,12 @@
 			<div class="slider-2-overlay"></div>
 		</div>
 
+		<!-- SECTION 6 -->
 		<div class="section-6 bg-2">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-5">
-					Конструкторское бюро
+				<div class="section-breadcrumbs mb-5">
+					<span class="mr-4">Конструкторское бюро</span>
+					<img src="@/assets/images/line.png" alt="1">
 				</div>
 
 				<div class="section-2-title mb-4">
@@ -358,8 +363,8 @@
 		<!-- SECTION 7 -->
 		<div class="section-7 bg-1">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-5">
-					Производство / Реализованные проекты
+				<div class="section-breadcrumbs mb-5">
+					Производство <span class="mx-3">/</span> Реализованные проекты
 				</div>
 
 				<div class="media">
@@ -380,10 +385,12 @@
 			</div>
 		</div>
 
+		<!-- SECTION 8 -->
 		<div class="section-8">
 			<div class="container-fluid page-px py-5">
-				<div class="section-2-menu-name mb-5">
-					Актуальные новости
+				<div class="section-breadcrumbs mb-5">
+					<span class="mr-4">Актуальные новости</span>
+					<img src="@/assets/images/line.png" alt="1">
 				</div>
 
 				<div class="section-2-title d-flex justify-content-between flex-wrap mb-5">
@@ -401,7 +408,7 @@
 							<div>
 								<span class="section-5-news-date">16 февраля 2021 г.</span>
 								<hr>
-								<img src="@/assets/images/news/1.svg" alt="1">
+								<img src="@/assets/images/news/1.svg" alt="1" class="w-100">
 							</div>
 						</div>
 					</div>
@@ -411,7 +418,7 @@
 							<div>
 								<span class="section-5-news-date">16 февраля 2021 г.</span>
 								<hr>
-								<img src="@/assets/images/news/2.svg" alt="2">
+								<img src="@/assets/images/news/2.svg" alt="2" class="w-100">
 							</div>
 						</div>
 					</div>
@@ -421,7 +428,7 @@
 							<div>
 								<span class="section-5-news-date">16 февраля 2021 г.</span>
 								<hr>
-								<img src="@/assets/images/news/3.svg" alt="3">
+								<img src="@/assets/images/news/3.svg" alt="3" class="w-100">
 							</div>
 						</div>
 					</div>
@@ -431,7 +438,7 @@
 							<div>
 								<span class="section-5-news-date">16 февраля 2021 г.</span>
 								<hr>
-								<img src="@/assets/images/news/4.svg" alt="4">
+								<img src="@/assets/images/news/4.svg" alt="4" class="w-100">
 							</div>
 						</div>
 					</div>
@@ -439,7 +446,7 @@
 			</div>
 		</div>
 
-		<footer class="page-px">
+		<footer class="page-px overflow-hidden">
 			<div class="footer-wrapper">
 				<div class="row py-5">
 					<div class="col-md-6">
@@ -460,7 +467,7 @@
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div class="d-flex flex-wrap">
+						<div class="row">
 							<div class="col-md-4">
 								<div class="mb-3">
 									Производство
