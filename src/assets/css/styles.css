@@ -113,6 +113,10 @@ header {
 	text-transform: uppercase;
 }
 
+.header-recall-btn:hover {
+	background-color: #d41927;
+}
+
 .vertical-center {
 	display: flex;
 	flex-direction: column;
