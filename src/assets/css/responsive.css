@@ -13,6 +13,9 @@
 }
 
 @media (max-width: 992px) {
+	.header-navbar-ul {
+		display: none;
+	}
 	.content-over-video {
 		height: 60%;
 	}
@@ -25,6 +28,13 @@
 	.content-over-video-button-wrapper {
 		display: flex;
 		justify-content: center;
+	}
+
+	.section-2-left {
+		width: 100%;
+	}
+	.section-2-right {
+		display: none;
 	}
 }
 

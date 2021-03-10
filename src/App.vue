@@ -97,7 +97,7 @@
 			</div>
 			<div class="section-2-right p-relative" :style="{'background-image': 'url(' + require('@/assets/images/section_2_bg.svg') + ')'}">
 				<div class="img-overlay p-absolute"></div>
-				<img class="p-absolute" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
+				<img class="p-absolute h-100" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
 			</div>
 		</div>
 
@@ -118,44 +118,59 @@
 				<hr class="mb-5">
 
 				<div class="row">
-					<div class="col-md-4">
-						<div class="red-element">
-							<div class="vertical-center">
-								<h1 class="section-3-title">30 000 т.</h1>
-								<p class="section-3-description">
-									производственной <br>мощности
-								</p>
+					<div class="col-md-4 mb-5">
+						<div class="d-flex">
+							<div class="section-3-block-icon-wrapper">
+								<div class="section-3-block-icon"></div>
+							</div>
+							<div class="section-3-block-content">
+								<div class="section-3-block-body">
+									<h1 class="section-3-title">30 000 т.</h1>
+									<p class="section-3-description mb-5">
+										производственной <br>мощности
+									</p>
+								</div>
+								<div class="section-3-text">
+									<span class="ml-4">В 2021 году AKFA Build планирует</span> достичь 30 000 тонн производственной мощности завода.
+								</div>
 							</div>
 						</div>
-						<p class="section-3-text">
-							<span class="ml-4">В 2021 году AKFA Build планирует</span> достичь 30 000 тонн производственной мощности завода.
-						</p>
 					</div>
-					<div class="col-md-4">
-						<div class="red-element">
-							<div class="vertical-center">
-								<h1 class="section-3-title">22 000</h1>
-								<p class="section-3-description">
-									квадратных метров
-								</p>
+					<div class="col-md-4 mb-5">
+						<div class="d-flex">
+							<div class="section-3-block-icon-wrapper">
+								<div class="section-3-block-icon"></div>
+							</div>
+							<div class="section-3-block-content">
+								<div class="section-3-block-body">
+									<h1 class="section-3-title">22 000</h1>
+									<p class="section-3-description mb-5">
+										квадратных метров
+									</p>
+								</div>
+								<div class="section-3-text">
+									<span class="ml-4">Площадь производственного </span> комплекса составляет более 22 тысяч квадратных метров.
+								</div>
 							</div>
 						</div>
-						<p class="section-3-text">
-							<span class="ml-4">Площадь производственного </span> комплекса составляет более 22 тысяч квадратных метров.
-						</p>
 					</div>
-					<div class="col-md-4">
-						<div class="red-element">
-							<div class="vertical-center">
-								<h1 class="section-3-title">250</h1>
-								<p class="section-3-description">
-									человек
-								</p>
+					<div class="col-md-4 mb-5">
+						<div class="d-flex">
+							<div class="section-3-block-icon-wrapper">
+								<div class="section-3-block-icon"></div>
+							</div>
+							<div class="section-3-block-content">
+								<div class="section-3-block-body">
+									<h1 class="section-3-title">250</h1>
+									<p class="section-3-description mb-5">
+										человек
+									</p>
+								</div>
+								<div class="section-3-text">
+									<span class="ml-4">Штат сотрудников насчитывает</span> <br>250 человек.
+								</div>
 							</div>
 						</div>
-						<p class="section-3-text">
-							<span class="ml-4">Штат сотрудников насчитывает</span> <br>250 человек.
-						</p>
 					</div>
 				</div>
 			</div>
@@ -273,6 +288,25 @@
 
 		<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
 			<div class="slider-2-overlay"></div>
+			<div class=" slider2-content">
+				<div class="container ">
+					<div class="vertical-center h-100">
+						<div class="d-flex">
+							<div class="mr-5">
+								<h2>
+									ESAB Welding & <br> Cutting 
+								</h2>
+								<p>(Швеция)</p>
+								<hr>
+								<p>Сварочное оборудование и сварочные <br> материалы.</p>
+							</div>
+							<div>
+								<img src="@/assets/images/slider2/img1.png" alt="logo" >
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- SECTION 6 -->
@@ -318,31 +352,31 @@
 
 				<div class="row">
 					<div class="col-md-4">
-						<div class="media mb-5">
+						<div class="media">
 							<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
-							<div class="media-body">
+							<div class="media-body section-6-blocks">
 								<p>Создание 3D расчётной схемы каркаса сооружения</p>
 							</div>
 						</div>
 
 						<div class="media">
 							<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
-							<div class="media-body">
+							<div class="media-body section-6-blocks">
 								<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4">
-						<div class="media mb-5">
+						<div class="media">
 							<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
-							<div class="media-body">
+							<div class="media-body section-6-blocks">
 								<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
 							</div>
 						</div>
 
 						<div class="media">
 							<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
-							<div class="media-body">
+							<div class="media-body section-6-blocks">
 								<p>Разработка принципиальных узловых соединений элементов конструкции</p>
 							</div>
 						</div>
@@ -350,7 +384,7 @@
 					<div class="col-md-4">
 						<div class="media">
 							<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
-							<div class="media-body">
+							<div class="media-body section-6-blocks">
 								<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические) </p>
 							</div>
 						</div>
@@ -377,12 +411,22 @@
 						</p>
 					</div>
 				</div>
-				
 			</div>
-
-			<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
-				<div class="slider-2-overlay"></div>
-			</div>
+			<VueSlickCarousel v-bind="slider3">
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div class="col-md-6 p-0">
+							<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
+								<div class="slider-2-overlay"></div>
+								123
+							</div>
+						</div>
+						<div class="col-md-6 p-0">
+							213
+						</div>
+					</div>
+				</div>
+			</VueSlickCarousel>
 		</div>
 
 		<!-- SECTION 8 -->
@@ -398,7 +442,12 @@
 						Главный двигатель нашей компании – <br>
 						высокий уровень мотивации.
 					</h2>
-					<button class="content-over-video-button">все новости ></button>
+					<div class="vertical-center">
+						<button class="all-news-button d-flex justify-content-between">
+							<div>все новости</div>
+							<div>></div>
+						</button>
+					</div>
 				</div>
 
 				<div class="row">
@@ -455,14 +504,16 @@
 								<img src="@/assets/images/logo2.svg" alt="logo" class="mr-5" width="96">
 							</div>
 							<div class="media-body opacity05">
-								<p>
-									Компания Avant Metal Group зарекомендовала<br>
-									себя как надежного и ответственного<br>
-									производителя, в продукции которого вы можете<br>
-									быть уверены. 
-								</p>
-								<hr>
-								la la la
+								<div class="w-75">
+									<p>
+										Компания Avant Metal Group зарекомендовала
+										себя как надежного и ответственного
+										производителя, в продукции которого вы можете
+										быть уверены. 
+									</p>
+									<hr>
+									la la la
+								</div>
 							</div>
 						</div>
 					</div>
@@ -581,6 +632,15 @@ export default {
 						}
 					}
 				]
+			},
+			slider3: {
+				dots: false,
+				arrows: false,
+				infinite: true,
+				speed: 500,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				initialSlide: 0,
 			},
 		}
 	}
