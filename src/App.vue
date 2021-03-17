@@ -36,9 +36,8 @@
 			</video>
 			<div class="overlay"></div>
 			<div class="content-over-video">
-				<div class="mr-5">
-					<img src="@/assets/images/logo2.svg" alt="logo"> <br>
-					<div class="text-center mt-2">AVANT METAL GROUP</div>
+				<div class="content-over-video-image">
+					<img src="@/assets/images/general/header_logo.png" alt="logo">
 				</div>
 				<div class="content-over-video-desc">
 					<h1 class="content-over-video-title">
@@ -195,7 +194,7 @@
 							<p class="color-white text-center">Уникальные здания</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type2.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -207,7 +206,7 @@
 							<p class="color-white text-center">Мархи</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type3.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -219,7 +218,7 @@
 							<p class="color-white text-center">Ангары</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type4.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -231,7 +230,7 @@
 							<p class="color-white text-center">Промышленные здания</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type5.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -243,7 +242,7 @@
 							<p class="color-white text-center">Мархи</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type6.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -255,7 +254,7 @@
 							<p class="color-white text-center">Металлопрокат</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 			</VueSlickCarousel>
 		</div>
@@ -349,48 +348,50 @@
 						<h5>Перечень работ по проектированию на стадии КМ :</h5>
 					</div>
 				</div>
+				
+			</div>
+		</div>
 
-				<div class="row">
-					<div class="col-md-4">
-						<div class="media">
-							<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
-							<div class="media-body section-6-blocks">
-								<p>Создание 3D расчётной схемы каркаса сооружения</p>
-							</div>
-						</div>
-
-						<div class="media">
-							<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
-							<div class="media-body section-6-blocks">
-								<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
-							</div>
+		<div class="container-fluid py-5">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="media padding-lr10">
+						<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
+						<div class="media-body section-6-blocks">
+							<p>Создание 3D расчётной схемы каркаса сооружения</p>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="media">
-							<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
-							<div class="media-body section-6-blocks">
-								<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
-							</div>
-						</div>
 
-						<div class="media">
-							<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
-							<div class="media-body section-6-blocks">
-								<p>Разработка принципиальных узловых соединений элементов конструкции</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="media">
-							<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
-							<div class="media-body section-6-blocks">
-								<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические) </p>
-							</div>
+					<div class="media padding-lr10">
+						<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
+						<div class="media-body section-6-blocks">
+							<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
 						</div>
 					</div>
 				</div>
-				
+				<div class="col-md-4">
+					<div class="media padding-lr10">
+						<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
+						<div class="media-body section-6-blocks">
+							<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
+						</div>
+					</div>
+
+					<div class="media padding-lr10">
+						<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
+						<div class="media-body section-6-blocks">
+							<p>Разработка принципиальных узловых соединений элементов конструкции</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="media padding-lr10">
+						<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
+						<div class="media-body section-6-blocks">
+							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические) </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -418,11 +419,34 @@
 						<div class="col-md-6 p-0">
 							<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
 								<div class="slider-2-overlay"></div>
-								123
+								<div class=" slider2-content">
+									<div class="vertical-center h-100">
+										<div class="d-flex">
+											<img src="@/assets/images/slider1/ico1.svg" alt="logo">
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-6 p-0">
-							213
+							<div class="d-flex justify-content-center">
+								<div>
+									<div class="d-flex flex-wrap">
+										<img src="@/assets/images/slider1/ico1.svg" alt="logo" width="72" class="mr-4">
+										<div class="vertical-center">
+											Уникальные здания
+										</div>
+									</div>
+									<div>
+										<h3>«Здание-лотос» The Lotus Building</h3>
+										<span>г.Ташкент. Шайхантахурский район.</span>
+										<hr>
+										<p>
+											По задумке австралийских архитекторов, «Здание-лотос» ,состоящее из трех частей, символизирует три этапа в жизни цветка лотоса.
+										</p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -498,10 +522,10 @@
 		<footer class="page-px overflow-hidden">
 			<div class="footer-wrapper">
 				<div class="row py-5">
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<div class="media">
 							<div>
-								<img src="@/assets/images/logo2.svg" alt="logo" class="mr-5" width="96">
+								<img src="@/assets/images/general/footer_logo.png" alt="logo" class="mr-5" width="96">
 							</div>
 							<div class="media-body opacity05">
 								<div class="w-75">
@@ -517,7 +541,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-7">
 						<div class="row">
 							<div class="col-md-4">
 								<div class="mb-3">

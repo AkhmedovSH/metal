@@ -40,15 +40,15 @@ header {
 	top: 0;
 	z-index: 100;
 	width: 100%;
-	min-height: 120px;
+	min-height: 96px;
 	box-shadow: 0 0 10px rgb(0 0 0 / 20%);
 }
 
 .header-logo-wrapper {
 	display: flex;
 	justify-content: center;
-	width: 120px;
-	height: 120px;
+	width: 96px;
+	height: 96px;
 	background-color: #fff;
 }
 
@@ -115,6 +115,10 @@ header {
 
 .header-recall-btn:hover {
 	background-color: #d41927;
+}
+
+.content-over-video-image {
+	margin-right: 80px;
 }
 
 .vertical-center {
@@ -360,6 +364,7 @@ video {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
+	background-size: cover;
 }
 
 .product-type-img {
@@ -428,6 +433,8 @@ video {
 .slider2 {
 	height: 322px;
 	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .slider2-content {
@@ -501,4 +508,8 @@ footer .contacts {
 
 .p-absolute {
 	position: absolute;
+}
+
+.aaa {
+	overflow: hidden;
 }

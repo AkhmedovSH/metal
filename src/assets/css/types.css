@@ -29,3 +29,7 @@
 .title-color {
 	color: #272324;
 }
+
+.padding-lr10 {
+	padding: 0 10%;
+}

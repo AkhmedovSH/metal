@@ -1,11 +1,14 @@
 @media (max-width: 1540px) { 
+	.content-over-video-image {
+		width: 160px;
+	}
 	.content-over-video-title{
 		font-size: 48px;
 		line-height: 48px;
 	}
 }
 
-@media (max-width: 1200px) { 
+@media (max-width: 1200px) {
 	.content-over-video-title{
 		font-size: 40px;
 		line-height: 40px;
@@ -13,23 +16,21 @@
 }
 
 @media (max-width: 992px) {
+	.header-navbar-nav {
+		justify-content: flex-end;
+	}
 	.header-navbar-ul {
 		display: none;
 	}
 	.content-over-video {
 		height: 60%;
 	}
-	.content-over-video-title{
-		text-align: center;
+	.content-over-video-description{
+		font-size: 32px;
 	}
-	.content-over-video-description {
-		text-align: center;
+	.content-over-video-description{
+		font-size: 18px;
 	}
-	.content-over-video-button-wrapper {
-		display: flex;
-		justify-content: center;
-	}
-
 	.section-2-left {
 		width: 100%;
 	}
@@ -38,10 +39,37 @@
 	}
 }
 
-@media (max-width: 768px) { 
-
+@media (max-width: 768px) {
+	.content-over-video-desc{
+		margin: 0 20px;
+	}
+	.content-over-video-image {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.content-over-video {
+		height: 50%;
+	}
+	.content-over-video-button-wrapper {
+		display: flex;
+		justify-content: center;
+	}
 }
 
-@media (max-width: 576px) { 
-
+@media (max-width: 576px) {
+	.header-recall-btn {
+		display: none;
+	}
+	.content-over-video-title{
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.content-over-video-description{
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.content-over-video-button {
+		width: 100%;
+		font-size: 9px;
+	}
 }
