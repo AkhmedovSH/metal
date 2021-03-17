@@ -50,10 +50,6 @@
 	.content-over-video {
 		height: 50%;
 	}
-	.content-over-video-button-wrapper {
-		display: flex;
-		justify-content: center;
-	}
 }
 
 @media (max-width: 576px) {
@@ -69,7 +65,6 @@
 		line-height: 24px;
 	}
 	.content-over-video-button {
-		width: 100%;
 		font-size: 9px;
 	}
 }
