@@ -13,7 +13,7 @@
 }
 
 body {
-	font-family: StyreneALC;
+	font-family: 'StyreneALC';
 	margin: 0;
 	padding: 0;
 }
@@ -84,7 +84,12 @@ header {
 	margin-right: auto!important;
 }
 
-.header-navbar-ul li a {
+.header-navbar-ul-li {
+	position: relative;
+	cursor: pointer;
+}
+
+.parent-link {
 	padding: 10px;
 	color: #272324;
 	opacity: 0.5;
@@ -95,10 +100,107 @@ header {
 	font-style: normal;
 	font-weight: normal;
 }
-
-.header-navbar-ul li a:hover {
-	color: #272324;
+header li:hover .parent-link {
+	color: #EE1D2D;
 	opacity: 1;
+}
+
+header li .child-link {
+	display: flex;
+	padding: 8px 24px;
+	color: #353B50;
+	text-decoration: unset;
+	font-size: 12px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.child-ul {
+	max-height: 665px;
+	overflow-y: auto;
+}
+
+.child-ul li:hover {
+	background-color: #eee;
+}
+.child-ul li:hover .child-link {
+	color: #EE1D2D;
+	opacity: 1;
+}
+
+.child-link-inner {
+	padding: 8px 24px;
+	color: #353B50;
+	opacity: 0.5;
+	text-decoration: unset!important;
+	font-size: 12px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.child-ul li:hover {
+	background-color: #eee;
+}
+.child-ul li:hover .child-link-inner {
+	color: #EE1D2D;
+	opacity: 0.5;
+}
+
+.child-ul {
+	padding: 15px 0;
+	margin-bottom: 0;
+	list-style: none;
+	background: #fff;
+  transition: all 0.5s ease;
+}
+
+.child-ul-big {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
+	width: 320px;
+	position: absolute;
+	top: 96px;
+	left: 0;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+	position: absolute;
+}
+
+ul li ul li {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 40px;
+	clear: both;
+  width: 100%;
+}
+
+.header-toggle-menu {
+	width: 120px;
+	display: none;
+}
+
+.mobile-menu {
+	max-height: 760px;
+	overflow-y: auto;
+	position:absolute;	
+	width:100%;	
+	background: #fff;
+}
+
+.mobile-menu-info {
+	position: absolute;
+	bottom: 0;
+	color: #272324;
+	opacity: 0.5;
 }
 
 .header-recall-btn {
@@ -118,6 +220,7 @@ header {
 }
 
 .content-over-video-image {
+	text-align: center;
 	margin-right: 80px;
 }
 
