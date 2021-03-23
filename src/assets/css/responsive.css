@@ -1,4 +1,7 @@
-@media (max-width: 1540px) { 
+@media (max-width: 1540px) {
+	.parent-link {
+		padding: 0 20px;
+	}
 	.content-over-video-image {
 		width: 160px;
 	}
@@ -9,6 +12,16 @@
 }
 
 @media (max-width: 1200px) {
+	.header-navbar-ul {
+		display: none;
+	}
+	.header-toggle-menu {
+		display: block;
+	}
+	.header-navbar-buttons {
+		justify-content: flex-end;
+		width: 100%;
+	}
 	.content-over-video-title{
 		font-size: 36px;
 		line-height: 36px;
@@ -40,12 +53,6 @@
 }
 
 @media (max-width: 768px) {
-	.header-navbar-ul {
-		display: none;
-	}
-	.header-toggle-menu {
-		display: block;
-	}
 	.child-ul {
 		padding: 0;
 	}
@@ -58,6 +65,9 @@
 	}
 	.content-over-video {
 		height: 50%;
+	}
+	.section-6-block-border {
+		border: none;
 	}
 }
 

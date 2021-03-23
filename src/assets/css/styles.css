@@ -88,9 +88,13 @@ header {
 	position: relative;
 	cursor: pointer;
 }
+.header-navbar-buttons {
+	display: flex;
+	height: 100%;
+}
 
 .parent-link {
-	padding: 10px;
+	padding: 0 38px;
 	color: #272324;
 	opacity: 0.5;
 	text-transform: uppercase;
@@ -221,7 +225,6 @@ ul li ul li {
 
 .content-over-video-image {
 	text-align: center;
-	margin-right: 80px;
 }
 
 .vertical-center {
@@ -274,7 +277,7 @@ video {
   width: 100%;
 	height: 50%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
@@ -285,7 +288,7 @@ video {
 	line-height: 64px;
 	letter-spacing: 0em;
 	text-align: left;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 
 .content-over-video-description {
@@ -533,6 +536,10 @@ video {
 	min-height: 120px;
 }
 
+.section-6-block-border {
+	border-right: 1px solid #CACED0;
+}
+
 .slider2 {
 	height: 322px;
 	position: relative;
@@ -561,6 +568,10 @@ video {
 
 .page-px {
 	padding: 0 5%;
+}
+
+.page-px-custom {
+	padding: 0 2%;
 }
 
 /* .red-element {

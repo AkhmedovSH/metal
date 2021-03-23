@@ -320,9 +320,9 @@
 			</div>
 		</div>
 
-		<div class="container-fluid py-5">
+		<div class="page-px-custom py-5">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 section-6-block-border">
 					<div class="media padding-lr10">
 						<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
@@ -337,7 +337,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 section-6-block-border">
 					<div class="media padding-lr10">
 						<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">

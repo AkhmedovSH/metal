@@ -51,7 +51,7 @@
 					<li class="vertical-center"><a class="parent-link" href="#">Новости</a></li>
 					<li class="vertical-center"><a class="parent-link" href="#">Контакты</a></li>
 				</ul>
-				<div class="d-flex h-100">
+				<div class="header-navbar-buttons">
 					<div class="header-toggle-menu" @click="showMenu = !showMenu">
 						<div class="d-flex justify-content-center h-100">
 							<div class="vertical-center">
