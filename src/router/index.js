@@ -10,17 +10,12 @@ const router = new Router({
     {
       path: "/",
       redirect: "/home",
-      component: () => import("@/layouts/main/Main.vue"),
+      component: () => import("@/views/Main.vue"),
       children: [
         {
           path: "/home",
           name: "home",
           component: () => import("@/views/Home.vue"),
-        },
-        {
-          path: "/modules",
-          name: "modules",
-          component: () => import("@/views/modules/Index.vue"),
         },
       ]
     }
