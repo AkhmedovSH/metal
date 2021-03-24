@@ -62,9 +62,9 @@
 					</button>
 				</div>
 			</div>
-			<div class="section-2-right p-relative" :style="{'background-image': 'url(' + require('@/assets/images/section_2_bg.svg') + ')'}">
-				<div class="img-overlay p-absolute"></div>
-				<img class="p-absolute h-100" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
+			<div class="section-2-right position-relative" :style="{'background-image': 'url(' + require('@/assets/images/section_2_bg.svg') + ')'}">
+				<div class="img-overlay position-absolute"></div>
+				<img class="position-absolute h-100" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
 			</div>
 		</div>
 
@@ -93,8 +93,8 @@
 							<div class="section-3-block-content">
 								<div class="section-3-block-body">
 									<h1 class="section-3-title">30 000 т.</h1>
-									<p class="section-3-description mb-5">
-										производственной <br>мощности
+									<p class="section-3-description">
+										производственной мощности
 									</p>
 								</div>
 								<div class="section-3-text">
@@ -111,7 +111,7 @@
 							<div class="section-3-block-content">
 								<div class="section-3-block-body">
 									<h1 class="section-3-title">22 000</h1>
-									<p class="section-3-description mb-5">
+									<p class="section-3-description">
 										квадратных метров
 									</p>
 								</div>
@@ -151,9 +151,9 @@
 				</div>
 			</div>
 			<VueSlickCarousel v-bind="productionTypes">
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type1.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type1.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico1.svg" alt="section_2_bg_overlay" width="144">
@@ -161,11 +161,11 @@
 							<p class="color-white text-center">Уникальные здания</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type2.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type2.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico2.svg" alt="section_2_bg_overlay" width="144">
@@ -173,11 +173,11 @@
 							<p class="color-white text-center">Мархи</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type3.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type3.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico3.svg" alt="section_2_bg_overlay" width="144">
@@ -185,11 +185,11 @@
 							<p class="color-white text-center">Ангары</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type4.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type4.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico4.svg" alt="section_2_bg_overlay" width="144">
@@ -197,11 +197,11 @@
 							<p class="color-white text-center">Промышленные здания</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type5.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type5.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico5.svg" alt="section_2_bg_overlay" width="144">
@@ -209,11 +209,11 @@
 							<p class="color-white text-center">Мархи</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
-				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type6.svg') + ')'}">
-					<div class="img-overlay p-absolute"></div>
-					<div class="product-type-img p-absolute d-flex justify-content-center w-100 h-100">
+				<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type6.svg') + ')'}">
+					<div class="img-overlay position-absolute"></div>
+					<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 						<div class="vertical-center">
 							<div class="d-flex justify-content-center w-100 mb-3">
 								<img src="@/assets/images/slider1/ico6.svg" alt="section_2_bg_overlay" width="144">
@@ -221,7 +221,7 @@
 							<p class="color-white text-center">Металлопрокат</p>
 						</div>
 					</div>
-					<img class="p-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
+					<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 				</div>
 			</VueSlickCarousel>
 		</div>
@@ -385,7 +385,7 @@
 				<div class="container-fluid p-0">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider3/1.jpg') + ')'}">
+							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/1.jpg') + ')'}">
 								<div class="slider-2-overlay"></div>
 								<div class=" slider2-content">
 									<div class="vertical-center h-100">
@@ -412,7 +412,7 @@
 
 		<!-- SECTION 8 -->
 		<div class="section-8">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-5">
 					<span class="mr-4">Актуальные новости</span>
 					<img src="@/assets/images/line.png" alt="1">
@@ -483,18 +483,18 @@
 
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
-import 'vue-slick-carousel/dist/vue-slick-carousel.css'
-import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'	
+import '@/assets/css/vue-slick.css'
+import '@/assets/css/vue-slick-theme.css'
 export default {
-  name: 'App',
+  name: 'Home',
 	components: { VueSlickCarousel },
 	data() {
 		return {
 			showMenu: false,
 			productionTypes: {
-				dots: false,
-				arrows: false,
-				infinite: true,
+				dots: true,
+				arrows: true,
+				infinite: false,
 				speed: 500,
 				slidesToShow: 3,
 				slidesToScroll: 2,

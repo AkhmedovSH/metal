@@ -547,7 +547,6 @@ video {
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
-	bottom: -5px;
 }
 
 .slider2-content {
@@ -567,6 +566,13 @@ video {
 	left: 0;
 	background-color: #233B57;
 	opacity: 0.5;
+}
+
+.slider3 {
+	height: 500px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .page-px {
@@ -636,16 +642,4 @@ footer .contacts {
 
 .footer-icon img {
 	opacity: 0.5;
-}
-
-.p-relative {
-	position: relative;
-}
-
-.p-absolute {
-	position: absolute;
-}
-
-.aaa {
-	overflow: hidden;
 }
