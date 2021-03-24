@@ -405,13 +405,13 @@ video {
 	letter-spacing: 2px;
 	display: flex;
 	justify-content: space-between;
-	width: 240px;
+	width: 320px;
 }
 
 .section-3 {
 	background-image: url('../images/section_3_figure.svg');
 	background-repeat: no-repeat;
-	background-color: #EDEDED;
+	background-color: #E9E7E6;
 }
 
 .section-3-title {
@@ -467,6 +467,7 @@ video {
 }
 
 .product-type {
+	bottom: -5px;
 	position: relative;
 	height: 600px;
 	overflow: hidden;
@@ -493,6 +494,7 @@ video {
 }
 
 .section-5 {
+	background-color: #E9E7E6;
 	position: relative;
 }
 
@@ -525,7 +527,7 @@ video {
 	font-weight: 500;
 	line-height: 16px;
 	letter-spacing: 2px;
-	width: 240px;
+	width: 320px;
 }
 
 .all-news-button:hover {
@@ -545,6 +547,7 @@ video {
 	position: relative;
 	background-repeat: no-repeat;
 	background-size: cover;
+	bottom: -5px;
 }
 
 .slider2-content {
@@ -614,6 +617,25 @@ footer ul li a:hover {
 
 footer .contacts {
 	color: #E54B4B;
+}
+
+.footer-icon {
+	padding: 5px;
+	background-color: #33373D;
+	width: 48px;
+	height: 48px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.footer-icon:hover img {
+ opacity: 1;
+}
+
+.footer-icon img {
+	opacity: 0.5;
 }
 
 .p-relative {

@@ -144,13 +144,12 @@
 		</div>
 
 		<!-- SECTION 4 -->
-		<div class="section-4 bg-2">
+		<div class="section-4">
 			<div class="container-fluid page-px py-5">
 				<div class="section-breadcrumbs mb-2">
 					виды производства <span class="mx-3">/</span> Продукция
 				</div>
 			</div>
-
 			<VueSlickCarousel v-bind="productionTypes">
 				<div class="product-type p-relative" :style="{'background-image': 'url(' + require('@/assets/images/slider1/prod_type1.svg') + ')'}">
 					<div class="img-overlay p-absolute"></div>
@@ -228,7 +227,7 @@
 		</div>
 
 		<!-- SECTION 5 -->
-		<div class="section-5 bg-2">
+		<div class="section-5">
 			<img src="@/assets/images/section_5_figure.svg" alt="section_5_figure" style="position: absolute;right: 0;">
 			<div class="container-fluid page-px py-5">
 				<div class="section-breadcrumbs mb-5">
@@ -290,8 +289,8 @@
 
 				<hr class="mb-5">
 
-				<div class="d-flex justify-content-between flex-wrap mb-5">
-					<div class="media">
+				<div class="d-flex justify-content-between flex-wrap">
+					<div class="media mb-5">
 						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
 						<div class="media-body">
 							<h5 class="mb-5">Разработка чертежей КМ и КМД</h5>
@@ -301,7 +300,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="vertical-end flex-wrap">
+					<div class="vertical-end flex-wrap mb-5">
 						<div class="header-recall-btn cursor-pointer p-3">
 							<div class="color-fb">задание на проектирование</div>
 						</div>
@@ -320,17 +319,17 @@
 			</div>
 		</div>
 
-		<div class="page-px-custom py-5">
-			<div class="row">
+		<div class="page-px-custom pb-5 bg-2">
+			<div class="row m-0">
 				<div class="col-md-4 section-6-block-border">
-					<div class="media padding-lr10">
+					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Создание 3D расчётной схемы каркаса сооружения</p>
 						</div>
 					</div>
 
-					<div class="media padding-lr10">
+					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
@@ -338,14 +337,14 @@
 					</div>
 				</div>
 				<div class="col-md-4 section-6-block-border">
-					<div class="media padding-lr10">
+					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
 						</div>
 					</div>
 
-					<div class="media padding-lr10">
+					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Разработка принципиальных узловых соединений элементов конструкции</p>
@@ -353,7 +352,7 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="media padding-lr10">
+					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические) </p>
@@ -381,37 +380,27 @@
 					</div>
 				</div>
 			</div>
+			
 			<VueSlickCarousel v-bind="slider3">
 				<div class="container-fluid p-0">
 					<div class="row">
-						<div class="col-md-6 p-0">
-							<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
+						<div class="col-md-12">
+							<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider3/1.jpg') + ')'}">
 								<div class="slider-2-overlay"></div>
 								<div class=" slider2-content">
 									<div class="vertical-center h-100">
 										<div class="d-flex">
-											<img src="@/assets/images/slider1/ico1.svg" alt="logo">
+											<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
+											<div>
+												<h2>«Здание-лотос» The Lotus Building</h2>
+												<p>г.Ташкент. Шайхантахурский район.</p>
+												<hr class="mb-3">
+												<p>
+													По задумке австралийских архитекторов, «Здание-лотос» ,состоящее из трех <br> 
+													частей, символизирует три этапа в жизни цветка лотоса.
+												</p>
+											</div>
 										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 p-0">
-							<div class="d-flex justify-content-center">
-								<div>
-									<div class="d-flex flex-wrap">
-										<img src="@/assets/images/slider1/ico1.svg" alt="logo" width="72" class="mr-4">
-										<div class="vertical-center">
-											Уникальные здания
-										</div>
-									</div>
-									<div>
-										<h3>«Здание-лотос» The Lotus Building</h3>
-										<span>г.Ташкент. Шайхантахурский район.</span>
-										<hr>
-										<p>
-											По задумке австралийских архитекторов, «Здание-лотос» ,состоящее из трех частей, символизирует три этапа в жизни цветка лотоса.
-										</p>
 									</div>
 								</div>
 							</div>
@@ -429,15 +418,17 @@
 					<img src="@/assets/images/line.png" alt="1">
 				</div>
 
-				<div class="section-2-title d-flex justify-content-between flex-wrap mb-5">
-					<h2>
+				<div class="section-2-title d-flex justify-content-between flex-wrap">
+					<h2 class="mb-5">
 						Главный двигатель нашей компании – <br>
 						высокий уровень мотивации.
 					</h2>
-					<div class="vertical-center">
+					<div class="vertical-center mb-5">
 						<button class="all-news-button d-flex justify-content-between">
-							<div>все новости</div>
-							<div>></div>
+							<div class="vertical-center h-100">все новости</div>
+							<div>
+								<img src="@/assets/images/general/chevron-right_news.svg" alt="1">
+							</div>
 						</button>
 					</div>
 				</div>

@@ -16,7 +16,17 @@
 									быть уверены. 
 								</p>
 								<hr>
-								la la la
+								<div class="d-flex flex-wrap">
+									<div class="footer-icon">
+										<img src="@/assets/images/general/facebook-w.svg" width="16">
+									</div>
+									<div class="footer-icon">
+										<img src="@/assets/images/general/telegram-w.svg" width="16">
+									</div>
+									<div class="footer-icon">
+										<img src="@/assets/images/general/instagram-w.svg" width="16">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
