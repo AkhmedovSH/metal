@@ -416,7 +416,7 @@ video {
 
 .section-3-title {
 	color: #EE1D2D;
-	font-size: 48px;
+	/* font-size: 48px; */
 	font-style: normal;
 	font-weight: 500;
 	line-height: 32px;
@@ -459,7 +459,14 @@ video {
 	padding-left: 80px;
 }
 .section-3-block-body{
-	min-height: 150px;
+	min-height: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 40px;
+}
+.section-3-block-body h1, p {
+	margin: 0;
 }
 
 .section-4 {
@@ -572,7 +579,23 @@ video {
 	height: 500px;
 	position: relative;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: center;
+}
+
+.slider2-img-wrapper {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: 100%;
+}
+
+.slider2-img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .page-px {

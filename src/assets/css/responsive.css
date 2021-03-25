@@ -26,6 +26,9 @@
 		font-size: 36px;
 		line-height: 36px;
 	}
+	.slider2-img-wrapper {
+		display: none;
+	}
 }
 
 @media (max-width: 992px) {

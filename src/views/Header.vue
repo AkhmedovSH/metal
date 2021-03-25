@@ -3,7 +3,9 @@
 		<div class="d-flex">
 			<div class="header-logo-wrapper mr-4">
 				<div class="vertical-center">
-					<img src="@/assets/images/header_logo.svg" alt="logo" width="56" height="56">
+					<router-link :to="{ name: 'home' }">
+						<img src="@/assets/images/header_logo.svg" alt="logo" width="56" height="56">
+					</router-link>
 				</div>
 			</div>
 			<div class="header-navbar-nav bg-f2">
@@ -22,7 +24,10 @@
 							<li><a class="child-link" href="#">Мархи</a></li>
 							<li><a class="child-link" href="#">Ангары</a></li>
 							<hr class="my-1">
-							<li><a class="ml-3 child-link-inner" href="#">Арочные ангары</a></li>
+							<li>
+								<router-link class="ml-3 child-link-inner" :to="{ name: 'archedHangars' }">
+									Арочные ангары
+								</router-link>
 							<li><a class="ml-3 child-link-inner" href="#">Прямостенные ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Шатровые ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Полигональные ангары</a></li>

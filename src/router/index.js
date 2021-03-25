@@ -17,6 +17,11 @@ const router = new Router({
           name: "home",
           component: () => import("@/views/Home.vue"),
         },
+				{
+          path: "/arched-hangars",
+          name: "archedHangars",
+          component: () => import("@/views/hangars/ArchedHangars.vue"),
+        },
       ]
     }
     // Redirect to 404 page, if no match found

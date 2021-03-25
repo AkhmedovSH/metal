@@ -86,7 +86,7 @@
 
 				<div class="row">
 					<div class="col-md-4 mb-5">
-						<div class="d-flex">
+						<div class="d-flex flex-wrap">
 							<div class="section-3-block-icon-wrapper">
 								<div class="section-3-block-icon"></div>
 							</div>
@@ -98,7 +98,7 @@
 									</p>
 								</div>
 								<div class="section-3-text">
-									<span class="ml-4">В 2021 году AKFA Build планирует</span> достичь 30 000 тонн производственной мощности завода.
+									<span class="ml-4"></span>В 2021 году AKFA Build планирует достичь 30 000 тонн производственной мощности завода.
 								</div>
 							</div>
 						</div>
@@ -116,7 +116,7 @@
 									</p>
 								</div>
 								<div class="section-3-text">
-									<span class="ml-4">Площадь производственного </span> комплекса составляет более 22 тысяч квадратных метров.
+									<span class="ml-4"></span>Площадь производственного комплекса составляет более 22 тысяч квадратных метров.
 								</div>
 							</div>
 						</div>
@@ -129,7 +129,7 @@
 							<div class="section-3-block-content">
 								<div class="section-3-block-body">
 									<h1 class="section-3-title">250</h1>
-									<p class="section-3-description mb-5">
+									<p class="section-3-description">
 										человек
 									</p>
 								</div>
@@ -254,8 +254,11 @@
 
 		<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
 			<div class="slider-2-overlay"></div>
-			<div class=" slider2-content">
-				<div class="container ">
+			<div class="slider2-content">
+				<div class="w-100 page-px">
+					<div class="slider2-img-wrapper">
+						<img class="slider2-img" src="@/assets/images/slider2/img1.png" alt="logo" >
+					</div>
 					<div class="vertical-center h-100">
 						<div class="d-flex">
 							<div class="mr-5">
@@ -265,9 +268,6 @@
 								<p>(Швеция)</p>
 								<hr>
 								<p>Сварочное оборудование и сварочные <br> материалы.</p>
-							</div>
-							<div>
-								<img src="@/assets/images/slider2/img1.png" alt="logo" >
 							</div>
 						</div>
 					</div>
@@ -312,7 +312,7 @@
 				<div class="media mb-5">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
 					<div class="media-body">
-						<h5>Перечень работ по проектированию на стадии КМ :</h5>
+						<h5>Перечень работ по проектированию на стадии КМ:</h5>
 					</div>
 				</div>
 				
@@ -355,7 +355,7 @@
 					<div class="media padding-lr7">
 						<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические) </p>
+							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические)</p>
 						</div>
 					</div>
 				</div>
@@ -385,7 +385,7 @@
 				<div class="container-fluid p-0">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/1.jpg') + ')'}">
+							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
 								<div class="slider-2-overlay"></div>
 								<div class=" slider2-content">
 									<div class="vertical-center h-100">
@@ -396,7 +396,7 @@
 												<p>г.Ташкент. Шайхантахурский район.</p>
 												<hr class="mb-3">
 												<p>
-													По задумке австралийских архитекторов, «Здание-лотос» ,состоящее из трех <br> 
+													По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
 													частей, символизирует три этапа в жизни цветка лотоса.
 												</p>
 											</div>
@@ -492,12 +492,12 @@ export default {
 		return {
 			showMenu: false,
 			productionTypes: {
-				dots: true,
+				dots: false,
 				arrows: true,
-				infinite: false,
+				infinite: true,
 				speed: 500,
 				slidesToShow: 3,
-				slidesToScroll: 2,
+				slidesToScroll: 1,
 				initialSlide: 0,
 				responsive: [
 					{
@@ -509,7 +509,7 @@ export default {
 					{
 						breakpoint: 767,
 						settings: {
-							slidesToShow: 2
+							slidesToShow: 1
 						}
 					},
 					{
