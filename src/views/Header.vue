@@ -118,7 +118,7 @@
 								<li><a class="child-link" href="#">Уникальные здания</a></li>
 								<li><a class="child-link" href="#">Мархи</a></li>
 								<li>
-									<a class="child-link" href="#">Ангары</a>
+									<a class="child-link">Ангары</a>
 									<hr class="my-1">
 									<ul class="child-ul">
 										<li><a href="#" class="ml-3 child-link-inner">Арочные ангары</a></li>
@@ -157,7 +157,17 @@
 				</div>
 				<hr>
 				<div class="p-3">
-					la la la
+					<div class="d-flex flex-wrap">
+						<div class="footer-icon">
+							<img src="@/assets/images/general/facebook-w.svg" width="16">
+						</div>
+						<div class="footer-icon">
+							<img src="@/assets/images/general/telegram-w.svg" width="16">
+						</div>
+						<div class="footer-icon">
+							<img src="@/assets/images/general/instagram-w.svg" width="16">
+						</div>
+					</div>
 				</div>
 				</div>
 			</div>

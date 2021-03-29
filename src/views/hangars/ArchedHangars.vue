@@ -87,14 +87,14 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Быстрая скорость строительства</h3>
 							</div>
-							<div class="section-3-text">
-								которая занимает 1-9 месяцев ;
-							</div>
+						</div>
+						<div class="section-3-text">
+							которая занимает 1-9 месяцев ;
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
-					<div class="d-flex">
+					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
@@ -102,14 +102,14 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Цена ниже <br> на 30 %</h3>
 							</div>
-							<div class="section-3-text">
-								По сравнению с возведением копитальных зданий цена на быстровозводимые ангары под ключ в среднем ниже на 30 % ;
-							</div>
+						</div>
+						<div class="section-3-text">
+							По сравнению с возведением копитальных зданий цена на быстровозводимые ангары под ключ в среднем ниже на 30 % ;
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
-					<div class="d-flex">
+					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
@@ -117,9 +117,9 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Лёгкость <br> конструкции</h3>
 							</div>
-							<div class="section-3-text">
-								За счёт лёгкости конструкции снижаются затраты на транспортровку элементов к месту работ ;
-							</div>
+						</div>
+						<div class="section-3-text">
+							За счёт лёгкости конструкции снижаются затраты на транспортровку элементов к месту работ ;
 						</div>
 					</div>
 				</div>
@@ -132,14 +132,14 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Не требуется <br> фундамента</h3>
 							</div>
-							<div class="section-3-text">
-								Не требуется сооружение мощных фундаметов, некотрые варианты ангаров могут устанавливаться прямо на грунт;
-							</div>
+						</div>
+						<div class="section-3-text">
+							Не требуется сооружение мощных фундаметов, некотрые варианты ангаров могут устанавливаться прямо на грунт;
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
-					<div class="d-flex">
+					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
@@ -147,14 +147,14 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Пригодность <br>к любому климату !</h3>
 							</div>
-							<div class="section-3-text">
-								Ангары пригодны для эксплуатации в любых климатических условиях;
-							</div>
+						</div>
+						<div class="section-3-text">
+							Ангары пригодны для эксплуатации в любых климатических условиях;
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
-					<div class="d-flex">
+					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
@@ -162,9 +162,9 @@
 							<div class="section-3-block-body">
 								<h3 class="section-3-title">Круглогодичное <br>строительтество</h3>
 							</div>
-							<div class="section-3-text">
-								Строительство может производиться в любое время года;
-							</div>
+						</div>
+						<div class="section-3-text">
+							Строительство может производиться в любое время года;
 						</div>
 					</div>
 				</div>
@@ -181,7 +181,7 @@
 			<hr class="mb-5">
 
 			<div class="row">
-				<div class="col">
+				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched_3_1.svg" alt="1">
@@ -191,7 +191,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched_3_2.svg" alt="1">
@@ -201,7 +201,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched_3_3.svg" alt="1">
@@ -213,6 +213,41 @@
 				</div>
 			</div>
 
+		</div>
+
+		<div class="page-px">
+			<div class="row">
+				<div class="col-md-4 bg-1">
+					<div class="py-3">
+						<h5 class="mb-3">Металлоконструкция:</h5>
+						<p>
+							Стальные профили с цинковым защитным покрытием
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="py-3">
+						<h5 class="mb-3">Обшивка:</h5>
+						<p>
+							- стальные профлисты <br>
+							- тент <br>
+							- сендвич-панели <br>
+							- сайдинг
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 bg-1">
+					<div class="py-3">
+						<h5 class="mb-3">Теплоизоляционный материал:</h5>
+						<p>
+							Сендвич-панели: <br>
+							- пенополистирол <br>
+							- понополиуретан (ППУ) <br>
+							- базальт
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>

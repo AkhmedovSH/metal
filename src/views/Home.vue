@@ -134,7 +134,7 @@
 									</p>
 								</div>
 								<div class="section-3-text">
-									<span class="ml-4">Штат сотрудников насчитывает</span> <br>250 человек.
+									<span class="ml-4">Штат сотрудников насчитывает</span><br>250 человек.
 								</div>
 							</div>
 						</div>
@@ -252,28 +252,52 @@
 			</div>
 		</div>
 
-		<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
-			<div class="slider-2-overlay"></div>
-			<div class="slider2-content">
-				<div class="w-100 page-px">
-					<div class="slider2-img-wrapper">
-						<img class="slider2-img" src="@/assets/images/slider2/img1.png" alt="logo" >
-					</div>
-					<div class="vertical-center h-100">
-						<div class="d-flex">
-							<div class="mr-5">
-								<h2>
-									ESAB Welding & <br> Cutting 
-								</h2>
-								<p>(Швеция)</p>
-								<hr>
-								<p>Сварочное оборудование и сварочные <br> материалы.</p>
+		<VueSlickCarousel v-bind="slider3">
+			<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
+				<div class="slider-2-overlay"></div>
+				<div class="slider2-content">
+					<div class="w-100 page-px">
+						<div class="slider2-img-wrapper">
+							<img class="slider2-img" src="@/assets/images/slider2/img1.png" alt="logo" style="display: initial;">
+						</div>
+						<div class="vertical-center h-100">
+							<div class="d-flex">
+								<div class="mr-5">
+									<h2>
+										ESAB Welding & <br> Cutting 
+									</h2>
+									<p>(Швеция)</p>
+									<hr>
+									<p>Сварочное оборудование и сварочные <br> материалы.</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+			<div class="slider2" :style="{'background-image': 'url(' + require('@/assets/images/slider2/image1.svg') + ')'}">
+				<div class="slider-2-overlay"></div>
+				<div class="slider2-content">
+					<div class="w-100 page-px">
+						<div class="slider2-img-wrapper">
+							<img class="slider2-img" src="@/assets/images/slider2/img1.png" alt="logo" style="display: initial!important;">
+						</div>
+						<div class="vertical-center h-100">
+							<div class="d-flex">
+								<div class="mr-5">
+									<h2>
+										ESAB Welding & <br> Cutting 
+									</h2>
+									<p>(Швеция)</p>
+									<hr>
+									<p>Сварочное оборудование и сварочные <br> материалы.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</VueSlickCarousel>
 
 		<!-- SECTION 6 -->
 		<div class="section-6 bg-2">
@@ -382,6 +406,31 @@
 			</div>
 			
 			<VueSlickCarousel v-bind="slider3">
+				<div class="container-fluid p-0">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
+								<div class="slider-2-overlay"></div>
+								<div class=" slider2-content">
+									<div class="vertical-center h-100">
+										<div class="d-flex">
+											<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
+											<div>
+												<h2>«Здание-лотос» The Lotus Building</h2>
+												<p>г.Ташкент. Шайхантахурский район.</p>
+												<hr class="mb-3">
+												<p>
+													По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
+													частей, символизирует три этапа в жизни цветка лотоса.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="container-fluid p-0">
 					<div class="row">
 						<div class="col-md-12">
@@ -522,7 +571,7 @@ export default {
 			},
 			slider3: {
 				dots: false,
-				arrows: false,
+				arrows: true,
 				infinite: true,
 				speed: 500,
 				slidesToShow: 1,

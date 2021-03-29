@@ -224,7 +224,7 @@ ul li ul li {
 }
 
 .content-over-video-image {
-	text-align: center;
+	margin-right: 10%;
 }
 
 .vertical-center {
@@ -261,8 +261,8 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #233B57;
-	opacity: 0.3;
+  background-color: #26282e;
+	opacity: 0.48;
   z-index: 2;
 }
 .content-over-video {
@@ -277,7 +277,7 @@ video {
   width: 100%;
 	height: 50%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -297,7 +297,7 @@ video {
 	font-size: 24px;
 	line-height: 32px;
 	color: #FBFBFB;
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 }
 
 .content-over-video-button {

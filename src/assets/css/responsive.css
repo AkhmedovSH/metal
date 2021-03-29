@@ -12,6 +12,13 @@
 }
 
 @media (max-width: 1200px) {
+	ul li:hover > ul,
+	ul li ul:hover {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+		position: absolute;
+	}
 	.header-navbar-ul {
 		display: none;
 	}
@@ -43,9 +50,7 @@
 	}
 	.content-over-video-description{
 		font-size: 32px;
-	}
-	.content-over-video-description{
-		font-size: 18px;
+		margin-bottom: 2rem;
 	}
 	.section-2-left {
 		width: 100%;

@@ -31,7 +31,7 @@
 	float: right;
 }
 .slick-slide img[data-v-e4caeaf8] {
-	display: block;
+	/* display: block; */
 }
 .slick-slide.slick-loading img[data-v-e4caeaf8] {
 	display: none;
