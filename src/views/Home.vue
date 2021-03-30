@@ -56,7 +56,7 @@
 						</p>
 					</div>
  
-					<button class="content-over-video-button">
+					<button class="button-danger content-over-video-button">
 						<div>Подробнее</div>
 						<img src="@/assets/images/button_chevron.svg" alt="button_chevron">
 					</button>
@@ -70,7 +70,7 @@
 
 		<!-- SECTION 3 -->
 		<div class="section-3">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-5">
 					<span class="mr-4">О производстве</span>
 					<img src="@/assets/images/line.png" alt="1">
@@ -145,7 +145,7 @@
 
 		<!-- SECTION 4 -->
 		<div class="section-4">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-2">
 					виды производства <span class="mx-3">/</span> Продукция
 				</div>
@@ -229,7 +229,7 @@
 		<!-- SECTION 5 -->
 		<div class="section-5">
 			<img src="@/assets/images/section_5_figure.svg" alt="section_5_figure" style="position: absolute;right: 0;">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-5">
 					Оборудование <span class="mx-3">/</span> наши партнеры
 				</div>
@@ -301,7 +301,7 @@
 
 		<!-- SECTION 6 -->
 		<div class="section-6 bg-2">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-5">
 					<span class="mr-4">Конструкторское бюро</span>
 					<img src="@/assets/images/line.png" alt="1">
@@ -343,7 +343,7 @@
 			</div>
 		</div>
 
-		<div class="page-px-custom pb-5 bg-2">
+		<div class="page-px pb-5 bg-2">
 			<div class="row m-0">
 				<div class="col-md-4 section-6-block-border">
 					<div class="media padding-lr7">

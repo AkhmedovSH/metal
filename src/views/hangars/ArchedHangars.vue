@@ -1,6 +1,6 @@
 <template>
 	<div class="mt96">
-		<div class="container-fluid page-px py-5">
+		<div class="page-px py-5">
 			<div class="section-breadcrumbs">
 				Производство <span class="mx-3">/</span> <strong>Агары</strong>
 			</div>
@@ -56,7 +56,7 @@
 			</div>
 		</VueSlickCarousel>
 
-		<div class="container-fluid page-px py-5">
+		<div class="page-px pt-5 bg-2">
 			<div class="section-breadcrumbs mb-5">
 				<span class="mr-4">Коротко о нас</span>
 				<img src="@/assets/images/line.png" alt="1">
@@ -215,9 +215,9 @@
 
 		</div>
 
-		<div class="page-px">
+		<div class="page-px bg-1 ">
 			<div class="row">
-				<div class="col-md-4 bg-1">
+				<div class="col-md-4">
 					<div class="py-3">
 						<h5 class="mb-3">Металлоконструкция:</h5>
 						<p>
@@ -225,7 +225,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 bg-2">
 					<div class="py-3">
 						<h5 class="mb-3">Обшивка:</h5>
 						<p>
@@ -236,7 +236,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 bg-1">
+				<div class="col-md-4">
 					<div class="py-3">
 						<h5 class="mb-3">Теплоизоляционный материал:</h5>
 						<p>
@@ -249,6 +249,135 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="row no-gutters">
+			<div class="col-md-6">
+				<div class="page-px my-5">
+					<div class="media">
+					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+					<div class="media-body">
+						<p class="mb-5"><span class="ml-4"></span> 
+							Для каркасного строительства ангаров и складов применяются ЧМК 
+							и тонкостенные (до 3 мм) быстровозводимые конструкции из ЛСТК-профилей,
+							которые производятся из специальной стали S350GDZn275.
+						</p>
+
+						<h4 class="mb-3 color-danger">Некопитальное сооружение (ангары)</h4>
+						<table class="table">
+							<thead>
+								<tr>
+									<th></th>
+									<th>ЧМК</th>
+									<th>ЛСТК</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Ширина (Пролет)</td>
+									<td>30 м</td>
+									<td>24 м</td>
+								</tr>
+								<tr>
+									<td>Шаг колонн</td>
+									<td>6 м</td>
+									<td>6 м</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div>
+					<img src="@/assets/images/hangars/screen1.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-md-6">
+				<div class="page-px my-5">
+					<div class="section-breadcrumbs mb-5">
+						<span class="mr-4">Тип производимых ангаров</span>
+						<img src="@/assets/images/line.png" alt="1">
+					</div>
+					<div class="section-2-title">
+						Прямостенные ангары
+					</div>
+					<hr class="mb-5">
+
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched_i_1.png" alt="arched_i_1">
+							<p class="section-3-text">
+								Не имеет ограничений по параметрам : ширина, длина, высота.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched_i_2.png" alt="arched_i_1">
+							<p class="section-3-text">
+								Не имеет ограничений по параметрам : ширина, длина, высота.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched_i_3.png" alt="arched_i_1">
+							<p class="section-3-text">
+								Не имеет ограничений по параметрам : ширина, длина, высота.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched_i_4.png" alt="arched_i_1">
+							<p class="section-3-text">
+								Не имеет ограничений по параметрам : ширина, длина, высота.
+							</p>
+						</div>
+					</div>
+
+					<button class="button-danger content-over-video-button">
+						<div>Подробнее</div>
+						<img src="@/assets/images/button_chevron.svg" alt="button_chevron">
+					</button>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="@/assets/images/hangars/screen2.png" alt="">
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-md-6">
+				<img src="@/assets/images/hangars/screen3.png" alt="">
+			</div>
+			<div class="col-md-6">
+				<div class="page-px my-5">
+					1
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-md-6">
+				<div class="page-px my-5">
+					1
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="@/assets/images/hangars/screen4.png" alt="">
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-md-6">
+				<img src="@/assets/images/hangars/screen5.png" alt="">
+			</div>
+			<div class="col-md-6">
+				<div class="page-px my-5">
+					1
+				</div>
+			</div>
+		</div>
+
 	</div>
 </template>
 

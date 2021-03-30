@@ -388,7 +388,7 @@ video {
 	opacity: 0.5;
 }
 
-.section-2 button {
+.button-danger {
 	background: none;
 	color: inherit;
 	color: #EE1D2D;
@@ -665,4 +665,35 @@ footer .contacts {
 
 .footer-icon img {
 	opacity: 0.5;
+}
+
+
+.arched-hangars-lr-image {
+	margin: auto auto;
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: contain;
+	/* clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%); */
+}
+
+.table thead th {
+	border: none;
+}
+
+table th {
+	background-color: #E9E7E6;
+	color: #353B50;
+	opacity: 0.5;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.table th, .table td {
+	border: none;
+}
+
+.table td {
+	color: #353B50;
 }
