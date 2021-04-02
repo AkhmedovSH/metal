@@ -6,6 +6,9 @@ import middlewarePipeline from "./middlewarePipeline";
 Vue.use(Router);
 const router = new Router({
   mode: "hash",
+	scrollBehavior (to, from, savedPosition) {
+		return { x: 0, y: 0 }
+	},
   routes: [
     {
       path: "/",

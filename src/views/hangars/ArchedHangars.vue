@@ -6,7 +6,7 @@
 			</div>
 		</div>
 		<VueSlickCarousel v-bind="productionTypes">
-			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched1.png') + ')'}">
+			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched/arched1.png') + ')'}">
 				<div class="img-overlay position-absolute"></div>
 				<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 					<div class="vertical-center">
@@ -18,7 +18,7 @@
 				</div>
 				<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 			</div>
-			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched2.png') + ')'}">
+			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched/arched2.png') + ')'}">
 				<div class="img-overlay position-absolute"></div>
 				<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 					<div class="vertical-center">
@@ -30,7 +30,7 @@
 				</div>
 				<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 			</div>
-			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched3.png') + ')'}">
+			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched/arched3.png') + ')'}">
 				<div class="img-overlay position-absolute"></div>
 				<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 					<div class="vertical-center">
@@ -42,7 +42,7 @@
 				</div>
 				<img class="position-absolute product-type-bg-overlay h-100" src="@/assets/images/slider_bg_overlay.png" alt="slider_bg_overlay">
 			</div>
-			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched4.png') + ')'}">
+			<div class="product-type position-relative" :style="{'background-image': 'url(' + require('@/assets/images/hangars/arched/arched4.png') + ')'}">
 				<div class="img-overlay position-absolute"></div>
 				<div class="product-type-img position-absolute d-flex justify-content-center w-100 h-100">
 					<div class="vertical-center">
@@ -184,7 +184,7 @@
 				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
-							<img src="@/assets/images/hangars/arched_3_1.svg" alt="1">
+							<img src="@/assets/images/hangars/arched/arched_3_1.svg" alt="1">
 						</div>
 						<div>
 							Стальные профлисты с цинковым покрытием  для монтажа каркаса.
@@ -194,7 +194,7 @@
 				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
-							<img src="@/assets/images/hangars/arched_3_2.svg" alt="1">
+							<img src="@/assets/images/hangars/arched/arched_3_2.svg" alt="1">
 						</div>
 						<div>
 							Стальные профлисты для изготовления обшивки.
@@ -204,7 +204,7 @@
 				<div class="col-md-4 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
-							<img src="@/assets/images/hangars/arched_3_3.svg" alt="1">
+							<img src="@/assets/images/hangars/arched/arched_3_3.svg" alt="1">
 						</div>
 						<div>
 							Различные типы негорючих утеплителей.
@@ -290,7 +290,7 @@
 			</div>
 			<div class="col-md-6">
 				<div>
-					<img src="@/assets/images/hangars/screen1.png" alt="">
+					<img src="@/assets/images/hangars/arched/screen1.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -309,49 +309,82 @@
 
 					<div class="row">
 						<div class="col-md-6 mb-3">
-							<img class="mb-3" src="@/assets/images/hangars/arched_i_1.png" alt="arched_i_1">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_1.png">
 							<p class="section-3-text">
 								Не имеет ограничений по параметрам : ширина, длина, высота.
 							</p>
 						</div>
 						<div class="col-md-6 mb-3">
-							<img class="mb-3" src="@/assets/images/hangars/arched_i_2.png" alt="arched_i_1">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_2.png">
 							<p class="section-3-text">
 								Не имеет ограничений по параметрам : ширина, длина, высота.
 							</p>
 						</div>
 						<div class="col-md-6 mb-3">
-							<img class="mb-3" src="@/assets/images/hangars/arched_i_3.png" alt="arched_i_1">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_3.png">
 							<p class="section-3-text">
 								Не имеет ограничений по параметрам : ширина, длина, высота.
 							</p>
 						</div>
 						<div class="col-md-6 mb-3">
-							<img class="mb-3" src="@/assets/images/hangars/arched_i_4.png" alt="arched_i_1">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_4.png">
 							<p class="section-3-text">
 								Не имеет ограничений по параметрам : ширина, длина, высота.
 							</p>
 						</div>
 					</div>
 
-					<button class="button-danger content-over-video-button">
+					<button class="button-danger content-over-video-button mt-3">
 						<div>Подробнее</div>
-						<img src="@/assets/images/button_chevron.svg" alt="button_chevron">
+						<img src="@/assets/images/button_chevron.svg">
 					</button>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="@/assets/images/hangars/screen2.png" alt="">
+				<img src="@/assets/images/hangars/arched/screen2.png">
 			</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
 			<div class="col-md-6">
-				<img src="@/assets/images/hangars/screen3.png" alt="">
+				<img src="@/assets/images/hangars/arched/screen3.png" alt="">
 			</div>
 			<div class="col-md-6">
 				<div class="page-px my-5">
-					1
+					<div class="section-breadcrumbs mb-5">
+						<span class="mr-4">Тип производимых ангаров</span>
+						<img src="@/assets/images/line.png" alt="1">
+					</div>
+					<div class="section-2-title">
+						Арочные ангары
+					</div>
+					<hr class="mb-5">
+
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_5.png">
+							<p class="section-3-text">
+								Простота технологии сборки.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_6.png">
+							<p class="section-3-text">
+								Конструкция допускает любое количество окон, возможность естественного освещения.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_7.png">
+							<p class="section-3-text">
+							Уменьшенная нагрузка на фундамент.
+							</p>
+						</div>
+					</div>
+
+					<button class="button-danger content-over-video-button mt-3">
+						<div>Подробнее</div>
+						<img src="@/assets/images/button_chevron.svg">
+					</button>
 				</div>
 			</div>
 		</div>
@@ -359,24 +392,70 @@
 		<div class="row no-gutters bg-1">
 			<div class="col-md-6">
 				<div class="page-px my-5">
-					1
+					<div class="section-breadcrumbs mb-5">
+						<span class="mr-4">Тип производимых ангаров</span>
+						<img src="@/assets/images/line.png" alt="1">
+					</div>
+					<div class="section-2-title">
+						Шатровые ангары
+					</div>
+					<hr class="mb-5">
+
+					<div class="row">
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_8.png">
+							<p class="section-3-text">
+								«Конек» позвляет збежать скопления снега и наледи на крыше ангаров.
+							</p>
+						</div>
+						<div class="col-md-6 mb-3">
+							<img class="mb-3" src="@/assets/images/hangars/arched/arched_i_9.png">
+							<p class="section-3-text">
+								Максимальное использование всей площади пола.
+							</p>
+						</div>
+
+						<div class="col-md-12">
+							<div class="my-3">
+								Каркас шатрового ангара - это закрепленные на фундаменте шатровые арки с шагом 3м. Сверху, поперек арок, закрепляются прогоны.
+							</div>
+						</div>
+					</div>
+
+					<button class="button-danger content-over-video-button mt-3">
+						<div>Подробнее</div>
+						<img src="@/assets/images/button_chevron.svg">
+					</button>
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="@/assets/images/hangars/screen4.png" alt="">
+				<img src="@/assets/images/hangars/arched/screen4.png" alt="">
 			</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
 			<div class="col-md-6">
-				<img src="@/assets/images/hangars/screen5.png" alt="">
+				<img src="@/assets/images/hangars/arched/screen5.png" alt="">
 			</div>
 			<div class="col-md-6">
 				<div class="page-px my-5">
-					1
+					<div class="section-breadcrumbs mb-5">
+						<span class="mr-4">Тип производимых ангаров</span>
+						<img src="@/assets/images/line.png" alt="1">
+					</div>
+					<div class="section-2-title">
+						Полигональные ангары
+					</div>
+					<hr class="mb-5">
+
+					<div class="my-3">
+						Каркас шатрового ангара - это закрепленные на фундаменте шатровые арки с шагом 3м. Сверху, поперек арок, закрепляются прогоны.
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<news></news>
 
 	</div>
 </template>
@@ -385,9 +464,11 @@
 import VueSlickCarousel from 'vue-slick-carousel'
 import '@/assets/css/vue-slick.css'
 import '@/assets/css/vue-slick-theme.css'
+import News from '@/components/News.vue'
+
 export default {
   name: 'Home',
-	components: { VueSlickCarousel },
+	components: { VueSlickCarousel, News },
 	data() {
 		return {
 			productionTypes: {
