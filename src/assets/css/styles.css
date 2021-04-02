@@ -679,7 +679,7 @@ footer .contacts {
 }
 
 .table thead th {
-	border: none;
+	border: 2px solid #ffffff;
 }
 
 table th {

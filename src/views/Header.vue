@@ -49,7 +49,10 @@
 					<li class="vertical-center header-navbar-ul-li">
 						<a class="parent-link" href="#">О нас</a>
 						<ul class="child-ul child-ul-big">
-							<li><a class="child-link" href="#">О компании</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'about' }">
+									О компании
+								</router-link>
 							<li><a class="child-link" href="#">Производтвенный комплекс</a></li>
 						</ul>
 					</li>
