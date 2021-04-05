@@ -709,3 +709,14 @@ table th {
 	opacity: 0.32;
   z-index: 1;
 }
+
+.icons-block {
+	min-height: 288px;
+}
+
+.about-img-content {
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+	color: #FBFBFB;
+}
