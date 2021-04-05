@@ -18,12 +18,20 @@
 	background-color: #EDEDED;
 }
 
+.bg-3 {
+	background-color: #E7E5E5;
+}
+
 .color-white {
 	color: #fff;
 }
 
 .color-danger {
 	color: #EE1D2D;
+}
+
+.color-01 {
+	color: #353B50;
 }
 
 .main-color {
