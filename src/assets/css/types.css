@@ -22,6 +22,11 @@
 	background-color: #E7E5E5;
 }
 
+.bg-4 {
+	background-color: #EA3333;
+}
+
+
 .color-white {
 	color: #fff;
 }
@@ -37,6 +42,7 @@
 .color-2 {
 	color: #FBFBFB;
 }
+
 
 .main-color {
 	color: #272324;

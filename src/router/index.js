@@ -30,6 +30,16 @@ const router = new Router({
           name: "about",
           component: () => import("@/views/about/About.vue"),
         },
+				{
+          path: "/contact",
+          name: "contact",
+          component: () => import("@/views/contact/Index.vue"),
+        },
+				{
+          path: "/production-complex",
+          name: "productionComplex",
+          component: () => import("@/views/productionComplex/Index.vue"),
+        },
       ]
     }
     // Redirect to 404 page, if no match found

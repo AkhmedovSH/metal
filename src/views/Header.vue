@@ -53,11 +53,19 @@
 								<router-link class="child-link" :to="{ name: 'about' }">
 									О компании
 								</router-link>
-							<li><a class="child-link" href="#">Производтвенный комплекс</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'productionComplex' }">
+									роизводтвенный комплекс
+								</router-link>
+							</li>
 						</ul>
 					</li>
 					<li class="vertical-center"><a class="parent-link" href="#">Новости</a></li>
-					<li class="vertical-center"><a class="parent-link" href="#">Контакты</a></li>
+					<li class="vertical-center">
+						<router-link class="parent-link" :to="{ name: 'contact' }">
+							Контакты
+						</router-link>
+					</li>
 				</ul>
 				<div class="header-navbar-buttons">
 					<div class="header-toggle-menu" @click="showMenu = !showMenu">

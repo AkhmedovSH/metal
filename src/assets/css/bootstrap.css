@@ -2066,7 +2066,7 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80bdff;
+  border-color: #495057;
   outline: 0;
 }
 
@@ -2715,8 +2715,8 @@ fieldset:disabled a.btn {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
-  border-color: #dc3545;
+  background-color: #EE1D2D;
+  border-color: #EE1D2D;
 }
 
 .btn-danger:hover {

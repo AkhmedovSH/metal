@@ -46,8 +46,26 @@
 			</div>
 		</div>
 
-		<div>
+		<div class="position-relative">
 			<img src="@/assets/images/about/about_bg2.png">
+			<div class="about-slogan">
+				<div class="container-fluid h-100">
+					<div class="row h-100">
+						<div class="col-md-5 h-100 ml-5">
+							<div class="h-100 bg-4 p-5">
+								<img class="ml-3 mb-4" src="@/assets/images/about/about_line.svg">
+								<h3 class="color-2">
+									Мы стремимся к тому, чтобы <br>
+									все наши решения и<br>
+									технологии были максимально полезны на<br>
+									практике и делали жизнь<br>
+									лучше.
+								</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="page-px pt-5 bg-2">
