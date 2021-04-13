@@ -6,9 +6,9 @@
 			</div>
 		</div>
 		
-		<div class="position-relative">
+		<div class="position-relative about_bg_1">
 			<div class="about-img-overlay"></div>
-			<img src="@/assets/images/about/about_bg.png">
+			<!-- <img src="@/assets/images/about/about_bg.png"> -->
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
@@ -24,7 +24,8 @@
 			</div>
 		</div>
 
-		<div class="page-px py-5 bg-2">
+		<div class="page-px py-5 bg-2 position-relative">
+			<img src="@/assets/images/section_2_figure.svg" alt="1" class="section-2-left-bg" width="200" style="top:0">
 			<div class="row">
 				<div class="col-md-6">
 					<hr>
@@ -46,21 +47,20 @@
 			</div>
 		</div>
 
-		<div class="position-relative">
-			<img src="@/assets/images/about/about_bg2.png">
+		<div class="position-relative about_bg_2">
 			<div class="about-slogan">
 				<div class="container-fluid h-100">
 					<div class="row h-100">
-						<div class="col-md-5 h-100 ml-5">
+						<div class="h-100 about-slogan_block">
 							<div class="h-100 bg-4 p-5">
 								<img class="ml-3 mb-4" src="@/assets/images/about/about_line.svg">
-								<h3 class="color-2">
+								<p class="color-2 about-slogan_block_text">
 									Мы стремимся к тому, чтобы <br>
 									все наши решения и<br>
 									технологии были максимально полезны на<br>
 									практике и делали жизнь<br>
 									лучше.
-								</h3>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -120,7 +120,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_1.svg">
@@ -128,7 +128,7 @@
 						<p class="text-center">Уникальные <br>здания</p>
 					</div>
 				</div>
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_2.svg">
@@ -136,7 +136,7 @@
 						<p class="text-center">Мархи</p>
 					</div>
 				</div>
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_3.svg">
@@ -144,7 +144,7 @@
 						<p class="text-center">Ангары</p>
 					</div>
 				</div>
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_4.svg">
@@ -152,7 +152,7 @@
 						<p class="text-center">Промышленные <br>здания</p>
 					</div>
 				</div>
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_5.svg">
@@ -160,7 +160,7 @@
 						<p class="text-center">Строительные <br>краны</p>
 					</div>
 				</div>
-				<div class="col-md-2 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_6.svg">

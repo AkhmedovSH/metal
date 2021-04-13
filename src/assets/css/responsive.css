@@ -94,4 +94,16 @@
 	.content-over-video-button {
 		font-size: 9px;
 	}
+
+	.about_bg_2 {
+		height: 500px;
+	}
+
+	.about-slogan_block {
+		margin-left: 0;
+	}
+	
+	.about-slogan_block_text {
+		font-size: 1.5rem;
+	}
 }

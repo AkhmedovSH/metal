@@ -332,7 +332,7 @@ video {
 
 .section-2-left-bg {
 	position: absolute;
-	top: -70px;
+	top: -50px;
 	right: 0;
 }
 
@@ -734,4 +734,27 @@ table th {
 	line-height: 32px;
 	color: #353B50;
 	opacity: 0.5;
+}
+
+.about_bg_1 {
+	background-image: url('../images/about/about_bg.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about_bg_2 {
+	background-image: url('../images/about/about_bg2.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.about-slogan_block {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.about-slogan_block_text {
+	font-size: 1.75rem;
 }

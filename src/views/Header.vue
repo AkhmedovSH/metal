@@ -14,7 +14,7 @@
 						<a class="parent-link" href="#">Услуги</a>
 						<ul class="child-ul child-ul-big">
 							<li><a class="child-link" href="#">Конструкторское бюро</a></li>
-							<li><a class="child-link" href="#">Задание на проектирование</a></li>
+							<li><a class="child-link" href="#">За дание на проектирование</a></li>
 						</ul>
 					</li>
 					<li class="vertical-center header-navbar-ul-li">
@@ -55,7 +55,7 @@
 								</router-link>
 							<li>
 								<router-link class="child-link" :to="{ name: 'productionComplex' }">
-									роизводтвенный комплекс
+									Производтвенный комплекс
 								</router-link>
 							</li>
 						</ul>
