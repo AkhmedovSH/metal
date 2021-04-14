@@ -14,7 +14,7 @@
 						<a class="parent-link" href="#">Услуги</a>
 						<ul class="child-ul child-ul-big">
 							<li><a class="child-link" href="#">Конструкторское бюро</a></li>
-							<li><a class="child-link" href="#">За дание на проектирование</a></li>
+							<li><a class="child-link" href="#">Здание на проектирование</a></li>
 						</ul>
 					</li>
 					<li class="vertical-center header-navbar-ul-li">
@@ -22,12 +22,17 @@
 						<ul class="child-ul child-ul-big">
 							<li><a class="child-link" href="#">Уникальные здания</a></li>
 							<li><a class="child-link" href="#">Мархи</a></li>
-							<li><a class="child-link" href="#">Ангары</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'hangars' }">
+									Ангары
+								</router-link>
+							</li>
 							<hr class="my-1">
 							<li>
 								<router-link class="ml-3 child-link-inner" :to="{ name: 'archedHangars' }">
 									Арочные ангары
 								</router-link>
+							</li>
 							<li><a class="ml-3 child-link-inner" href="#">Прямостенные ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Шатровые ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Полигональные ангары</a></li>

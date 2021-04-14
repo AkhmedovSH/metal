@@ -242,7 +242,10 @@
 
 				<hr class="mb-5">
 
-				<div class="media">
+				<div class="media"
+				data-aos="fade-down" 
+				data-aos-duration="1000" 
+				data-aos-once="true">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
 					<div class="media-body">
 						<p><span class="ml-4">На</span> площади комплекса размещено оборудование <br> мировыхлидеров в области металлообработки, таких как: </p>
@@ -316,7 +319,10 @@
 				<div class="d-flex justify-content-between flex-wrap">
 					<div class="media mb-5">
 						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
-						<div class="media-body">
+						<div class="media-body"
+						data-aos="fade-down" 
+						data-aos-duration="1000" 
+						data-aos-once="true">
 							<h5 class="mb-5">Разработка чертежей КМ и КМД</h5>
 							<p class="m-0 opacity05">
 								<span class="ml-4">Исходным</span> документом для проектирования любого здания или <br>
@@ -335,7 +341,10 @@
 
 				<div class="media mb-5">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
-					<div class="media-body">
+					<div class="media-body"
+					data-aos="fade-down" 
+					data-aos-duration="1000" 
+					data-aos-once="true">
 						<h5>Перечень работ по проектированию на стадии КМ:</h5>
 					</div>
 				</div>

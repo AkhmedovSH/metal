@@ -758,3 +758,17 @@ table th {
 .about-slogan_block_text {
 	font-size: 1.75rem;
 }
+
+.pr_complex_bg_1 {
+	background-image: url('../images/production_complex/1.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pr_complex_bg_2 {
+	background-image: url('../images/production_complex/2.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
