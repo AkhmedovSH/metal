@@ -31,6 +31,11 @@ const router = new Router({
           component: () => import("@/views/hangars/ArchedHangars.vue"),
         },
 				{
+          path: "/unique-building",
+          name: "uniqueBuilding",
+          component: () => import("@/views/hangars/ArchedHangars.vue"),
+        },
+				{
           path: "/about",
           name: "about",
           component: () => import("@/views/about/About.vue"),
