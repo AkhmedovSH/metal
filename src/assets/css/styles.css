@@ -759,6 +759,13 @@ table th {
 	font-size: 1.75rem;
 }
 
+.arched_hangars_bg {
+	background-image: url('../images/hangars/arched/bg_1.png');
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .pr_complex_bg_1 {
 	background-image: url('../images/production_complex/1.png');
 	height: 400px;
