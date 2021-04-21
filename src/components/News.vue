@@ -23,7 +23,7 @@
 			</div>
 
 			<div class="row mx-md-n5">
-				<div class="col px-md-5">
+				<div class="col-lg-3 col-md-6 px-md-5">
 					<div class="d-flex justify-content-between flex-column h-100">
 						<h4 class="section-5-news-title mb-3">COVID-19 Бизнес-инвестиционный бонус.</h4>
 						<div>
@@ -33,7 +33,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col px-md-5">
+				<div class="col-lg-3 col-md-6 px-md-5">
 					<div class="d-flex justify-content-between flex-column h-100">
 						<h4 class="section-5-news-title mb-3">COVID-19 Бизнес-инвестиционный бонус.</h4>
 						<div>
@@ -43,7 +43,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col px-md-5">
+				<div class="col-lg-3 col-md-6 px-md-5">
 					<div class="d-flex justify-content-between flex-column h-100">
 						<h4 class="section-5-news-title mb-3">HGG Under the Hood -  Стратегическое партнерство.</h4>
 						<div>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col px-md-5">
+				<div class="col-lg-3 col-md-6 px-md-5">
 					<div class="d-flex justify-content-between flex-column h-100">
 						<h4 class="section-5-news-title mb-3">Новые установки от компании Voortman Steel Machinery. </h4>
 						<div>

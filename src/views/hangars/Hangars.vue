@@ -78,7 +78,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -93,7 +93,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -108,7 +108,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -123,7 +123,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -138,7 +138,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -153,7 +153,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-6 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
@@ -180,8 +180,8 @@
 
 			<hr class="mb-5">
 
-			<div class="row">
-				<div class="col-md-4 mb-5">
+			<div class="row mx-md-n5 pb-3">
+				<div class="col-lg-4 col-md-12 px-md-5 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched/arched_3_1.svg" alt="1">
@@ -191,7 +191,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-lg-4 col-md-12 px-md-5 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched/arched_3_2.svg" alt="1">
@@ -201,7 +201,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-lg-4 col-md-12 px-md-5 mb-5">
 					<div class="d-flex">
 						<div class="mr-3">
 							<img src="@/assets/images/hangars/arched/arched_3_3.svg" alt="1">
@@ -216,17 +216,17 @@
 		</div>
 
 		<div class="page-px bg-1 ">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="py-3">
+			<div class="row mx-md-n5">
+				<div class="col-lg-4 col-sm-12 px-md-5">
+					<div class="py-5">
 						<h5 class="mb-3">Металлоконструкция:</h5>
 						<p>
 							Стальные профили с цинковым защитным покрытием
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4 bg-2">
-					<div class="py-3">
+				<div class="col-lg-4 col-sm-12 px-md-5 bg-2">
+					<div class="py-5">
 						<h5 class="mb-3">Обшивка:</h5>
 						<p>
 							- стальные профлисты <br>
@@ -236,8 +236,8 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="py-3">
+				<div class="col-lg-4 col-sm-12 px-md-5">
+					<div class="py-5">
 						<h5 class="mb-3">Теплоизоляционный материал:</h5>
 						<p>
 							Сендвич-панели: <br>
@@ -251,7 +251,7 @@
 		</div>
 
 		<div class="row no-gutters">
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="media">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
@@ -288,7 +288,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div>
 					<img src="@/assets/images/hangars/arched/screen1.png" alt="">
 				</div>
@@ -296,7 +296,7 @@
 		</div>
 
 		<div class="row no-gutters bg-1">
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="section-breadcrumbs mb-5">
 						<span class="mr-4">Тип производимых ангаров</span>
@@ -340,16 +340,16 @@
 					</button>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<img src="@/assets/images/hangars/arched/screen2.png">
 			</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<img src="@/assets/images/hangars/arched/screen3.png" alt="">
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="section-breadcrumbs mb-5">
 						<span class="mr-4">Тип производимых ангаров</span>
@@ -390,7 +390,7 @@
 		</div>
 
 		<div class="row no-gutters bg-1">
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="section-breadcrumbs mb-5">
 						<span class="mr-4">Тип производимых ангаров</span>
@@ -428,16 +428,16 @@
 					</button>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<img src="@/assets/images/hangars/arched/screen4.png" alt="">
 			</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<img src="@/assets/images/hangars/arched/screen5.png" alt="">
 			</div>
-			<div class="col-md-6">
+			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="section-breadcrumbs mb-5">
 						<span class="mr-4">Тип производимых ангаров</span>

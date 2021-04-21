@@ -85,7 +85,7 @@
 				<hr class="mb-5">
 
 				<div class="row">
-					<div class="col-md-4 mb-5">
+					<div class="col-md-12 col-lg-4 mb-5">
 						<div class="d-flex flex-wrap">
 							<div class="section-3-block-icon-wrapper">
 								<div class="section-3-block-icon"></div>
@@ -103,7 +103,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 mb-5">
+					<div class="col-md-12 col-lg-4 mb-5">
 						<div class="d-flex">
 							<div class="section-3-block-icon-wrapper">
 								<div class="section-3-block-icon"></div>
@@ -121,7 +121,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 mb-5">
+					<div class="col-md-12 col-lg-4 mb-5">
 						<div class="d-flex">
 							<div class="section-3-block-icon-wrapper">
 								<div class="section-3-block-icon"></div>
@@ -353,39 +353,39 @@
 		</div>
 
 		<div class="page-px pb-5 bg-2">
-			<div class="row m-0">
-				<div class="col-md-4 section-6-block-border">
-					<div class="media padding-lr7">
+			<div class="row mx-md-n5">
+				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5 section-6-block-border">
+					<div class="media mb-5">
 						<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Создание 3D расчётной схемы каркаса сооружения</p>
 						</div>
 					</div>
 
-					<div class="media padding-lr7">
+					<div class="media mb-5">
 						<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 section-6-block-border">
-					<div class="media padding-lr7">
+				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5 section-6-block-border">
+					<div class="media mb-5">
 						<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
 						</div>
 					</div>
 
-					<div class="media padding-lr7">
+					<div class="media mb-5">
 						<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Разработка принципиальных узловых соединений элементов конструкции</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="media padding-lr7">
+				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
+					<div class="media mb-5">
 						<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
 							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические)</p>

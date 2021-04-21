@@ -2,7 +2,7 @@
 	<footer class="page-px overflow-hidden">
 		<div class="footer-wrapper">
 			<div class="row py-5">
-				<div class="col-md-5">
+				<div class="col-md-12 col-lg-5 mb-5">
 					<div class="media">
 						<div>
 							<img src="@/assets/images/general/footer_logo.png" alt="logo" class="mr-5" width="96">
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-12 col-lg-7 mb-5">
 					<div class="row">
 						<div class="col-md-4">
 							<div class="mb-3">
