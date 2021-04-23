@@ -22,7 +22,7 @@
 		<div class="page-px py-5">
 
 			<div class="section-2-title mb-3">
-				<h2 class="title-color mb-0">
+				<h2 class="main-color mb-0">
 					Заполните форму обратной связи и мы <br> оперативно свяжемся с вами !
 				</h2>
 			</div>

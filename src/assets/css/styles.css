@@ -356,6 +356,7 @@ video {
 .section-breadcrumbs {
 	text-transform: uppercase;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	color: #272324;
 	opacity: 0.32;
@@ -776,6 +777,13 @@ table th {
 .pr_complex_bg_2 {
 	background-image: url('../images/production_complex/2.png');
 	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.unique_building_bg {
+	background-image: url('../images/unique_buildings/image1.png');
+	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }

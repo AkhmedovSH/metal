@@ -20,7 +20,11 @@
 					<li class="vertical-center header-navbar-ul-li">
 						<a class="parent-link" href="#">Производство</a>
 						<ul class="child-ul child-ul-big">
-							<li><a class="child-link" href="#">Уникальные здания</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'uniqueBuilding' }">
+									Уникальные здания
+								</router-link>
+							</li>
 							<li><a class="child-link" href="#">Мархи</a></li>
 							<li>
 								<router-link class="child-link" :to="{ name: 'hangars' }">

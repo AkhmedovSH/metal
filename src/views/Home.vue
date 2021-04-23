@@ -77,7 +77,7 @@
 				</div>
 
 				<div class="section-2-title mb-3">
-					<h2 class="title-color mb-0">
+					<h2 class="main-color mb-0">
 						Главный двигатель нашей компании – <br>
 						высокий уровень мотивации. 
 					</h2>
@@ -235,7 +235,7 @@
 				</div>
 
 				<div class="section-2-title mb-3">
-					<h2 class="title-color mb-0">
+					<h2 class="main-color mb-0">
 						Оборудования мировых лидеров
 					</h2>
 				</div>
