@@ -223,43 +223,67 @@
 			</div>
 		</div>
 
-		<div class="section-7 bg-1">
-			<div class="container-fluid page-px py-5">
-				<div class="section-breadcrumbs mb-5">
-					Производство <span class="mx-3">/</span> Реализованные проекты
-				</div>
+		
+		<div class="page-px py-5">
+			<div class="section-breadcrumbs mb-5">
+				Производство <span class="mx-3">/</span> Реализованные проекты
+			</div>
 
-				<div class="media">
-					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
-					<div class="media-body">
-						<p>
-							<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
-							надежного и ответственного производителя, в продукции<br>
-							которого вы можете быть уверены.
-						</p>
+			<div class="media">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<div class="media-body">
+					<p>
+						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
+						надежного и ответственного производителя, в продукции<br>
+						которого вы можете быть уверены.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<VueSlickCarousel v-bind="slider3">
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
+							<div class="slider-2-overlay"></div>
+							<div class=" slider2-content">
+								<div class="vertical-center h-100">
+									<div class="d-flex">
+										<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
+										<div>
+											<h2>«Здание-лотос» The Lotus Building</h2>
+											<p>г.Ташкент. Шайхантахурский район.</p>
+											<hr class="mb-3">
+											<p>
+												По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
+												частей, символизирует три этапа в жизни цветка лотоса.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			
-			<VueSlickCarousel v-bind="slider3">
-				<div class="container-fluid p-0">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
-								<div class="slider-2-overlay"></div>
-								<div class=" slider2-content">
-									<div class="vertical-center h-100">
-										<div class="d-flex">
-											<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
-											<div>
-												<h2>«Здание-лотос» The Lotus Building</h2>
-												<p>г.Ташкент. Шайхантахурский район.</p>
-												<hr class="mb-3">
-												<p>
-													По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
-													частей, символизирует три этапа в жизни цветка лотоса.
-												</p>
-											</div>
+			<div class="container-fluid p-0">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
+							<div class="slider-2-overlay"></div>
+							<div class=" slider2-content">
+								<div class="vertical-center h-100">
+									<div class="d-flex">
+										<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
+										<div>
+											<h2>«Здание-лотос» The Lotus Building</h2>
+											<p>г.Ташкент. Шайхантахурский район.</p>
+											<hr class="mb-3">
+											<p>
+												По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
+												частей, символизирует три этапа в жизни цветка лотоса.
+											</p>
 										</div>
 									</div>
 								</div>
@@ -267,33 +291,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="container-fluid p-0">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="slider3" :style="{'background-image': 'url(' + require('@/assets/images/slider3/images_.svg') + ')'}">
-								<div class="slider-2-overlay"></div>
-								<div class=" slider2-content">
-									<div class="vertical-center h-100">
-										<div class="d-flex">
-											<img src="@/assets/images/slider1/ico1.svg" alt="logo" class="mr-5">
-											<div>
-												<h2>«Здание-лотос» The Lotus Building</h2>
-												<p>г.Ташкент. Шайхантахурский район.</p>
-												<hr class="mb-3">
-												<p>
-													По задумке австралийских архитекторов, «Здание-лотос», состоящее из трех <br> 
-													частей, символизирует три этапа в жизни цветка лотоса.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</VueSlickCarousel>
-		</div>
+			</div>
+		</VueSlickCarousel>
+		
 
 		<news></news>
 
