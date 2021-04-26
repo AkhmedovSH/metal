@@ -787,3 +787,10 @@ table th {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.marchs_bg {
+	background-image: url('../images/marchs/main.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

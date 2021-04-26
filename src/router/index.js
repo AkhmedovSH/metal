@@ -36,6 +36,11 @@ const router = new Router({
           component: () => import("@/views/uniqueBuilding/Index.vue"),
         },
 				{
+          path: "/marchs",
+          name: "marchs",
+          component: () => import("@/views/marchs/Index.vue"),
+        },
+				{
           path: "/about",
           name: "about",
           component: () => import("@/views/about/About.vue"),

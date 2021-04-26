@@ -25,7 +25,11 @@
 									Уникальные здания
 								</router-link>
 							</li>
-							<li><a class="child-link" href="#">Мархи</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'marchs' }">
+									Мархи
+								</router-link>
+							</li>
 							<li>
 								<router-link class="child-link" :to="{ name: 'hangars' }">
 									Ангары
