@@ -204,7 +204,6 @@
 		</div>
 
 		<div class="page-px">
-
 			<div class="section-breadcrumbs my-5">
 				Производство <span class="mx-3">/</span> Агары <span class="mx-3">/</span> <strong>Арочные Агары</strong>
 			</div>

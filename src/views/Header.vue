@@ -44,7 +44,11 @@
 							<li><a class="ml-3 child-link-inner" href="#">Прямостенные ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Шатровые ангары</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Полигональные ангары</a></li>
-							<li><a class="child-link" href="#">Промышленные здания</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'industrialBuilding' }">
+									Промышленные здания
+								</router-link>
+							</li>
 							<li><a class="child-link" href="#">Строительные краны</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Козловые краны</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Мостовые краны</a></li>

@@ -2,17 +2,17 @@
 	<div class="mt96">
 		<div class="page-px py-5">
 			<div class="section-breadcrumbs">
-				Производство <span class="mx-3">/</span> <strong>Арочные Агары</strong>
+				Производство <span class="mx-3">/</span> <strong>Промышленные здания</strong>
 			</div>
 		</div>
 
-		<div class="position-relative marchs_bg">
+		<div class="position-relative industrial_bg">
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/marchs/main_icon.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/industrial_building/icon1.svg" alt="logo" class="mr-5" height="96">
 					<div class="media-body">
-						<h1>Мархи</h1>
+						<h1>Промышленные здания</h1>
 					</div>
 				</div>
 				<p class="color-2">

@@ -794,3 +794,10 @@ table th {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.industrial_bg {
+	background-image: url('../images/industrial_building/bg_main.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
