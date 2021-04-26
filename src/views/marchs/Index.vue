@@ -65,33 +65,33 @@
 					<hr class="mb-5">
 
 					<div class="row">
-						<div class="col-md-6 mb-3">
+						<div class="col-md-6 mb-5">
 							<div class="media">
-								<img src="@/assets/images/hangars/arched/arched_i_2.png" class="mr-5">
+								<img src="@/assets/images/marchs/icon1.svg" class="mr-5">
 								<div class="media-body section-3-text">
 									<p>Трубчатые соединения</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 mb-3">
+						<div class="col-md-6 mb-5">
 							<div class="media">
-								<img src="@/assets/images/hangars/arched/arched_i_2.png" class="mr-5">
+								<img src="@/assets/images/marchs/icon2.svg" class="mr-5">
 								<div class="media-body section-3-text">
 									<p>Узлы</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 mb-3">
+						<div class="col-md-6 mb-5">
 							<div class="media">
-								<img src="@/assets/images/hangars/arched/arched_i_2.png" class="mr-5">
+								<img src="@/assets/images/marchs/icon3.svg" class="mr-5">
 								<div class="media-body section-3-text">
 									<p>Болты</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 mb-3">
+						<div class="col-md-6 mb-5">
 							<div class="media">
-								<img src="@/assets/images/hangars/arched/arched_i_2.png" class="mr-5">
+								<img src="@/assets/images/marchs/icon4.svg" class="mr-5">
 								<div class="media-body section-3-text">
 									<p>Муфты</p>
 								</div>
@@ -99,27 +99,21 @@
 						</div>
 					</div>
 
+					<h4 class="mb-3 color-danger">Основные характеристики :</h4>
 					<table class="table">
-							<thead>
-								<tr>
-									<th></th>
-									<th>ЧМК</th>
-									<th>ЛСТК</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Ширина (Пролет)</td>
-									<td>30 м</td>
-									<td>24 м</td>
-								</tr>
-								<tr>
-									<td>Шаг колонн</td>
-									<td>6 м</td>
-									<td>6 м</td>
-								</tr>
-							</tbody>
-						</table>
+						<thead>
+							<tr>
+								<th>Длина пролетов без промежуточных опор</th>
+								<th class="color-danger">до 120 м</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>Длина пролетов без промежуточных опор</th>
+								<th class="color-danger">до 120 м</th>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
