@@ -145,20 +145,162 @@
 			</div>
 		</div>
 
-		<div class="page-px">
-			<div class="section-breadcrumbs my-5">
-				Мархи <span class="mx-3">/</span> Технические характеристики PDF Файл
+		<div class="page-px py-5 bg-2">
+			<div class="section-breadcrumbs mb-5">
+				Производство <span class="mx-3">/</span> Промышленные здания
 			</div>
-			<div class="d-flex justify-content-between flex-wrap">
-				<div class="media mb-5">
-					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
-					<div class="media-body">
-						<h5 class="mb-5">Технические характеристики модификаций мархи</h5>
+
+			<hr>
+
+			<div class="media mt-5">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<div class="media-body">
+					<p>
+						<span class="ml-4"></span>
+						При проектировании организации строительства конкретного промышленног 
+						объекта необходимо учитывать специфику объемно-планировочных и конструктивных решений. 
+						Обычно промышленные здания подразделяются на :
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- new block -->
+		<div class="row no-gutters bg-1">
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/industrial_building/image3.png" alt="">
+			</div>
+			<div class="col-lg-6 col-md-12 bg-ff">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<div>
+						<div class="section-breadcrumbs mb-3">
+							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
+						</div>
+						<div class="section-2-title">
+							Легкие
+						</div>
+						
+						<hr class="mb-5">
+
+						<h4 class="mb-3 color-danger">В зданиях легкого типа:</h4>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Величина пролета в пределах</th>
+									<th class="color-danger">12 - 18 м</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Масса колон</td>
+									<td class="color-danger">до 5 т</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th>Масса ферм и балок</th>
+									<th class="color-danger">11 т</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Масса плит покрытия</td>
+									<td class="color-danger">7 т</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<hr>
+						·  Здания предельно однородны.
 					</div>
 				</div>
-				<div class="vertical-end flex-wrap mb-5">
-					<div class="header-recall-btn cursor-pointer p-3">
-						<div class="color-fb">Скачать PDF файл</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-lg-6 col-md-12 bg-ff">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<div>
+						<div class="section-breadcrumbs mb-3">
+							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
+						</div>
+						<div class="section-2-title">
+							Средние
+						</div>
+						
+						<hr class="mb-5">
+
+						<h4 class="mb-3 color-danger">В зданиях среднего типа:</h4>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Величина пролета при высоте 18 м</th>
+									<th class="color-danger">18 - 30 м</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Масса колон</td>
+									<td class="color-danger">до 12 т</td>
+								</tr>
+							</tbody>
+							<thead>
+								<tr>
+									<th>Масса ферм и балок</th>
+									<th class="color-danger">30 т</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Масса плит покрытия</td>
+									<td class="color-danger">7 т</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<hr>
+						·  Здания предельно однородны.
+					</div>
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-12">
+			<img src="@/assets/images/industrial_building/image4.png" alt="">
+		</div>
+		</div>
+
+		<div class="row no-gutters bg-1">
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/industrial_building/image3.png" alt="">
+			</div>
+			<div class="col-lg-6 col-md-12 bg-ff">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<div>
+						<div class="section-breadcrumbs mb-3">
+							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
+						</div>
+						<div class="section-2-title">
+							Тяжелые
+						</div>
+						
+						<hr class="mb-5">
+
+						<h4 class="mb-3 color-danger">В зданиях тяжелого типа:</h4>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>Большое разнообразие в пролетах, высотах, т.е. разнохарактерность конструкций по материалу и массе</th>
+									<th class="color-danger">L = 24 - 48м, H = 18 - 65 м</th>
+								</tr>
+							</thead>
+						</table>
+
+						<hr>
+						·  Здания этого типа имеют тяжелое технологичекое оборужование, для которого утсраиваются
+						мощные фундаменты, технологические подвалы, приямки и т.п. Поэтому сооружение подземной
+						части здания тяжелого типа не менее сложно, чем возведение надземной части.
 					</div>
 				</div>
 			</div>

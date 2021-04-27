@@ -49,7 +49,11 @@
 									Промышленные здания
 								</router-link>
 							</li>
-							<li><a class="child-link" href="#">Строительные краны</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'constructionCranes' }">
+									Строительные краны
+								</router-link>
+							</li>
 							<li><a class="ml-3 child-link-inner" href="#">Козловые краны</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Мостовые краны</a></li>
 							<li><a class="child-link" href="#">Металлопрокат</a></li>

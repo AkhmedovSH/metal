@@ -397,7 +397,7 @@
 
 		<!-- SECTION 7 -->
 		<div class="section-7 bg-1">
-			<div class="container-fluid page-px py-5">
+			<div class="page-px py-5">
 				<div class="section-breadcrumbs mb-5">
 					Производство <span class="mx-3">/</span> Реализованные проекты
 				</div>
