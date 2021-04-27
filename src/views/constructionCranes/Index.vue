@@ -56,6 +56,113 @@
 			</div>
 		</VueSlickCarousel>
 
+		<div class="row no-gutters bg-2">
+			<div class="col-lg-6 col-md-12">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+				<div>
+
+					<hr class="mb-5">
+
+					<div class="section-2-description mb-5">
+						<p>
+							<span class="ml-4"></span>
+							Одним из интересных и перспективных направлений компании «Avant Metal Group» является производство
+							строительных кранов. При производстве техники используются инновационные технологии.
+						</p>
+						<p class="mb-3">
+							<span class="ml-4"></span>
+							«Avant Metal Group» уникальный источник глобального опыта и знаний, совмещенных с местными уникальными
+							технологиями, расширяющими возможности подъемного оборудования и увеличивающими производительность
+							и безопасность предприятия. 
+						</p>
+					</div>
+				</div>
+			</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/construction_cranes/image1.png" alt="">
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-2">
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/construction_cranes/image2.png" alt="">
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="mx-50 page-px">
+						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<div>
+
+						<div class="section-breadcrumbs mb-3">
+							Тип строительных кранов <span class="mx-3">/</span> <img src="@/assets/images/line.png" alt="1">
+						</div>
+						<div class="section-2-title mb-5">
+							Козловой ран
+						</div>
+						
+						<hr class="mb-5">
+
+						<div class="section-2-description mb-5">
+							<p class="mb-3">
+								<span class="ml-4"></span>
+								Козловой кран – это габаритное грузоподъемное устройство мостового типа, предназначенное для перемещения
+								грузов в портах, на промышленных складах, строительстве. Также козловые краны используются при ремонте техники
+								крупных размеров, монтаже сборного оборуддования, разгрузке поездов и в других задачах, предполагающих
+								высокоинтенсивную транспортировку грузов.
+							</p>
+						</div>
+
+						<button class="button-danger content-over-video-button mt-3">
+							<div>Подробнее</div>
+							<img src="img/button_chevron.9f18f715.svg">
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row no-gutters bg-2">
+			<div class="col-lg-6 col-md-12">
+				<div class="mx-50 page-px">
+						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<div>
+
+						<div class="section-breadcrumbs mb-3">
+							Тип строительных кранов <span class="mx-3">/</span> <img src="@/assets/images/line.png" alt="1">
+						</div>
+						<div class="section-2-title mb-5">
+							Мостовой кран
+						</div>
+						
+						<hr class="mb-5">
+
+						<div class="section-2-description mb-5">
+							<p class="mb-3">
+								<span class="ml-4"></span>
+								Мостовой кран – представляет собой грузоподъемное оборудование, которое активно
+								используется на производственных предприятиях, складах, строительных площадках.
+								Транспортировка материалов выполняется за счет перемещения их по подкрановому пути.
+							</p>
+							<p class="mb-3">
+								<span class="ml-4"></span>
+								В промышленности применяются модели с широким диапазоном характеристик.
+								Выбор определяется особенностями сферы использования и параметрами грузов.
+							</p>
+						</div>
+
+						<button class="button-danger content-over-video-button mt-3">
+							<div>Подробнее</div>
+							<img src="img/button_chevron.9f18f715.svg">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/construction_cranes/image3.png" alt="">
+			</div>
+		</div>
+
 		<news></news>
 
 	</div>

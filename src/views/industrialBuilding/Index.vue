@@ -63,10 +63,10 @@
 				<div class="mx-50 page-px">
 					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
 				<div>
-					<div class="section-breadcrumbs">
+					<div class="section-breadcrumbs mb-3">
 						Производство <span class="mx-3">/</span> <strong>Промышленные здания</strong>
 					</div>
-					<div class="section-2-title">
+					<div class="section-2-title mb-5">
 						Особенности строительства :
 					</div>
 					
