@@ -10,116 +10,83 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/industrial_building/icon1.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/industrial_building/icon_main.svg" alt="logo" class="mr-5" height="96">
 					<div class="media-body">
 						<h1>Промышленные здания</h1>
 					</div>
 				</div>
 				<p class="color-2">
-					Помещения характерезующиеся эксклюзивным экстерьером и <br>
-					вместительностью более 1 тыс. человек.
+					«Avant Metal Group» релизует проекты по проектированию и сооружению <br>
+					АЭС большой мощности и промышленных зданий из ЧМК.
 				</p>
 			</div>
 		</div>
 
-		<div class="d-flex flex-wrap section-2">
-			<div class="section-2-left page-px">
-				<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+		<div class="row no-gutters bg-1">
+			<div class="col-lg-6 col-md-12 bg-ff">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
 				<div>
 
 					<hr class="mb-5">
 
 					<div class="section-2-description mb-5">
-						<p class="mb-3">
+						<p>
 							<span class="ml-4"></span>
-							Одним из интересных и перспективных направлений компании «Avant Metal Group»
-							является производство стежневых элементов для систем МАРХИ.
+							«Avant Metal Group» релизует проекты по проектированию и сооружению АЭС большой мощности и промышленных зданий из ЧМК.
 						</p>
 						<p class="mb-3">
 							<span class="ml-4"></span>
-							Мы готовы изготовить по вашему запросу любое количество стержневых элементов
-							с розличными диаметрами. Система МАРХИ в строительстве обладает широкими
-							возможностями фоотобразования, позволяя создвать любые объемы, и решать
-							сложные архетектурные задачи.
+							Технология возведения на металлокаркасе позволяет быстро, качественно, в любой сезон. 
+							с минимальным привлечением рабочец силы и строительной техники возводить производственные 
+							сооружения и здания – от крупнейших гигантов до небольших цехов и мастерских.
 						</p>
-						<p class="mb-3">
+						<p class="mb-3 color-danger">
 							<span class="ml-4"></span>
-							Такая система выполняет не только функцию перекрытия пространства, но и является
-							своего рода «скелетом» композиции всего сооружения.
+							Металлоконструкци легко монтируются и демонтируются, и, в случае необходимости,
+							в дальнейшем можно провести расширение или перепланировку зданий без остановки основного рабочего процесса.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="section-2-right position-relative" :style="{'background-image': 'url(' + require('@/assets/images/marchs/image1.png') + ')'}">
-				<div class="img-overlay position-absolute"></div>
-				<img class="position-absolute h-100" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<img src="@/assets/images/industrial_building/image1.png" alt="">
 			</div>
 		</div>
 
-		<div class="row no-gutters">
+		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12">
-				<div class="page-px my-5">
-					<div class="section-2-title">
-						Основные составляющие :
+				<img src="@/assets/images/industrial_building/image1.png" alt="">
+			</div>
+			<div class="col-lg-6 col-md-12 bg-ff">
+				<div class="mx-50 page-px">
+					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+				<div>
+					<div class="section-breadcrumbs">
+						Производство <span class="mx-3">/</span> <strong>Промышленные здания</strong>
 					</div>
+					<div class="section-2-title">
+						Особенности строительства :
+					</div>
+					
 					<hr class="mb-5">
 
-					<div class="row">
-						<div class="col-md-6 mb-5">
-							<div class="media">
-								<img src="@/assets/images/marchs/icon1.svg" class="mr-5">
-								<div class="media-body section-3-text">
-									<p>Трубчатые соединения</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 mb-5">
-							<div class="media">
-								<img src="@/assets/images/marchs/icon2.svg" class="mr-5">
-								<div class="media-body section-3-text">
-									<p>Узлы</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 mb-5">
-							<div class="media">
-								<img src="@/assets/images/marchs/icon3.svg" class="mr-5">
-								<div class="media-body section-3-text">
-									<p>Болты</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 mb-5">
-							<div class="media">
-								<img src="@/assets/images/marchs/icon4.svg" class="mr-5">
-								<div class="media-body section-3-text">
-									<p>Муфты</p>
-								</div>
-							</div>
-						</div>
+					<div class="section-2-description mb-5">
+						<p class="mb-3">
+							<span class="ml-4"></span>
+							Основная особенность организации строительства промышленных зданий
+							состоит в сложной увязки выполнения строительной части с монитажом
+							технологического и инженерного оборудования и коммуникаций.
+						</p>
+						<p >
+							<span class="ml-4"></span>
+							Последовательность возведения частей здания должна быть запроектирована таким образом,
+							чтобы обеспечить минимальную продолжительность строительства объекта в целом.
+						</p>
 					</div>
-
-					<h4 class="mb-3 color-danger">Основные характеристики :</h4>
-					<table class="table">
-						<thead>
-							<tr>
-								<th>Длина пролетов без промежуточных опор</th>
-								<th class="color-danger">до 120 м</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Длина пролетов без промежуточных опор</td>
-								<td class="color-danger">до 120 м</td>
-							</tr>
-						</tbody>
-					</table>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12">
-				<div>
-					<img src="@/assets/images/marchs/image2.png">
-				</div>
 			</div>
 		</div>
 
@@ -127,56 +94,49 @@
 			<div class="row no-gutters">
 				<div class="col-lg-12 col-md-12">
 					<div class="section-breadcrumbs mb-5">
-						Мархи <span class="mx-3">/</span> Материалы
+						Промышленные здания <span class="mx-3">/</span> Преимущества
 					</div>
 					<div class="section-2-title">
-						Варианты покрытия :
+						Типы промышленных зданий по назначению:
 					</div>
 					<hr class="mb-5">
 
 					<div class="row mx-md-n5">
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon5.svg" alt="1" class="mr-5">
+								<img src="@/assets/images/industrial_building/icon1.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
-									<p>Спортивные, зрелищные культовые сооружения;</p>
+									<p>Здания промышленных предприятий (заводы, фабрики);</p>
 								</div>
 							</div>
 
 							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon6.svg" alt="1" class="mr-5">
+								<img src="@/assets/images/industrial_building/icon2.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
-									<p>Торгово-развлекательные комплексы;</p>
+									<p>ТЗдания транспортно-складского хозяйства (складские помещения);</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon7.svg" alt="1" class="mr-5">
+								<img src="@/assets/images/industrial_building/icon3.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
-									<p>Многофункциональные офисы;</p>
+									<p>Здания производственного назначения (ремонтные, механосборочные);</p>
 								</div>
 							</div>
 
 							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon8.svg" alt="1" class="mr-5">
+								<img src="@/assets/images/industrial_building/icon4.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
-									<p>Гостиницы;</p>
+									<p>Вспомогательные здания (административные помещения);</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon9.svg" alt="1" class="mr-5">
+								<img src="@/assets/images/industrial_building/icon5.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
-									<p>Выставочные павильоны;</p>
-								</div>
-							</div>
-
-							<div class="media mb-5">
-								<img src="@/assets/images/marchs/icon10.svg" alt="1" class="mr-5">
-								<div class="media-body section-6-blocks main-color">
-									<p>Аэропорты;</p>
+									<p>Здания энергетического назначения (трансформаторные подстанции и ТЭЦ);</p>
 								</div>
 							</div>
 						</div>
