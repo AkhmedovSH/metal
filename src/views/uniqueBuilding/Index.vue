@@ -28,6 +28,7 @@
 		</div>
 
 		<div class="d-flex flex-wrap section-2">
+			<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 			<div class="section-2-left page-px">
 				<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
 				<div>

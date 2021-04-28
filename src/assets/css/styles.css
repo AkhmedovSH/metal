@@ -383,6 +383,12 @@ video {
 	text-align: left;
 }
 
+.triangle {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .section-2-title {
 	color: #272324;
 	font-size: 32px;

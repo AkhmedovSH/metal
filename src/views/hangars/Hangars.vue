@@ -61,7 +61,8 @@
 			</div>
 		</VueSlickCarousel>
 
-		<div class="page-px pt-5 bg-2">
+		<div class="page-px pt-5 bg-2 position-relative">
+			<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 			<div class="section-breadcrumbs mb-5">
 				<span class="mr-4">Коротко о нас</span>
 				<img src="@/assets/images/line.png" alt="1">
