@@ -1,8 +1,13 @@
 <template>
 	<div class="mt96">
 		<div class="page-px py-5">
-			<div class="section-breadcrumbs">
-				Производство <span class="mx-3">/</span> Агары <span class="mx-3">/</span> <strong>Арочные Агары</strong>
+			<div class="d-flex flex-wrap">
+				<div class="section-breadcrumbs">
+					Производство <span class="mx-3">/</span> Агары <span class="mx-3">/</span>
+				</div>
+				<div class="breadcrumb-last">
+					Арочные Агары
+				</div>
 			</div>
 		</div>
 
@@ -306,7 +311,6 @@ import '@/assets/css/vue-slick-theme.css'
 import News from '@/components/News.vue'
 
 export default {
-  name: 'Home',
 	components: { VueSlickCarousel, News },
 	data() {
 		return {

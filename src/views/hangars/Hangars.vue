@@ -1,8 +1,13 @@
 <template>
 	<div class="mt96">
 		<div class="page-px py-5">
-			<div class="section-breadcrumbs">
-				Производство <span class="mx-3">/</span> <strong>Агары</strong>
+			<div class="d-flex flex-wrap">
+				<div class="section-breadcrumbs">
+					Производство <span class="mx-3">/</span>
+				</div>
+				<div class="breadcrumb-last">
+					Ангары
+				</div>
 			</div>
 		</div>
 		<VueSlickCarousel v-bind="productionTypes">

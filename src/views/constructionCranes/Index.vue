@@ -1,8 +1,13 @@
 <template>
 	<div class="mt96">
 		<div class="page-px py-5">
-			<div class="section-breadcrumbs">
-				Производство <span class="mx-3">/</span> <strong>Агары</strong>
+			<div class="d-flex flex-wrap">
+				<div class="section-breadcrumbs">
+					Производство <span class="mx-3">/</span>
+				</div>
+				<div class="breadcrumb-last">
+					Агары
+				</div>
 			</div>
 		</div>
 		<VueSlickCarousel v-bind="productionTypes">
@@ -115,7 +120,7 @@
 
 						<button class="button-danger content-over-video-button mt-3">
 							<div>Подробнее</div>
-							<img src="img/button_chevron.9f18f715.svg">
+							<img src="@/assets/images/button_chevron.svg">
 						</button>
 					</div>
 				</div>
@@ -153,7 +158,7 @@
 
 						<button class="button-danger content-over-video-button mt-3">
 							<div>Подробнее</div>
-							<img src="img/button_chevron.9f18f715.svg">
+							<img src="@/assets/images/button_chevron.svg">
 						</button>
 					</div>
 				</div>

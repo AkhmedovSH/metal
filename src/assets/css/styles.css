@@ -372,6 +372,17 @@ video {
 	text-align: left;
 }
 
+.breadcrumb-last {
+	text-transform: uppercase;
+	align-items: center;
+	color: #272324;
+	font-weight: 500;
+	line-height: 24px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-align: left;
+}
+
 .section-2-title {
 	color: #272324;
 	font-size: 32px;
@@ -801,6 +812,13 @@ table th {
 
 .industrial_bg {
 	background-image: url('../images/industrial_building/bg_main.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ganty_crane_bg {
+	background-image: url('../images/ganty_crane/bg_main.png');
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;

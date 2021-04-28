@@ -54,7 +54,11 @@
 									Строительные краны
 								</router-link>
 							</li>
-							<li><a class="ml-3 child-link-inner" href="#">Козловые краны</a></li>
+							<li>
+								<router-link class="ml-3 child-link-inner" :to="{ name: 'gantyCrane' }">
+									Козловые краны
+								</router-link>
+							</li>
 							<li><a class="ml-3 child-link-inner" href="#">Мостовые краны</a></li>
 							<li><a class="child-link" href="#">Металлопрокат</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Двутавр</a></li>

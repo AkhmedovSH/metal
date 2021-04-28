@@ -1,8 +1,13 @@
 <template>
 	<div class="mt96">
 		<div class="page-px py-5">
-			<div class="section-breadcrumbs">
-				Производство <span class="mx-3">/</span> Уникальные здания и сооружения <span class="mx-3">/</span> <strong>Арочные Агары</strong>
+			<div class="d-flex flex-wrap">
+				<div class="section-breadcrumbs">
+					Производство <span class="mx-3">/</span> Уникальные здания и сооружения <span class="mx-3">/</span>
+				</div>
+				<div class="breadcrumb-last">
+					Арочные Агары
+				</div>
 			</div>
 		</div>
 

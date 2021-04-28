@@ -41,6 +41,11 @@ const router = new Router({
           component: () => import("@/views/constructionCranes/Index.vue"),
         },
 				{
+          path: "/ganty-crane",
+          name: "gantyCrane",
+          component: () => import("@/views/gantyCrane/Index.vue"),
+        },
+				{
           path: "/industrial-building",
           name: "industrialBuilding",
           component: () => import("@/views/industrialBuilding/Index.vue"),

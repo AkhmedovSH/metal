@@ -1,8 +1,13 @@
 <template>
 	<div class="mt96">
 		<div class="page-px py-5 bg-2">
-			<div class="section-breadcrumbs">
-				О нас <span class="mx-3">/</span> <strong>Производтвенный комплекс</strong>
+			<div class="d-flex flex-wrap">
+				<div class="section-breadcrumbs">
+					О нас <span class="mx-3">/</span>
+				</div>
+				<div class="breadcrumb-last">
+					Производтвенный комплекс
+				</div>
 			</div>
 		</div>
 
