@@ -57,7 +57,7 @@
 			</div>
 			<div class="section-2-right position-relative" :style="{'background-image': 'url(' + require('@/assets/images/marchs/image1.png') + ')'}">
 				<div class="img-overlay position-absolute"></div>
-				<img class="position-absolute h-100" src="@/assets/images/section_2_bg_overlay.png" alt="section_2_bg_overlay" style="right:0">
+				<img class="position-absolute h-100" src="@/assets/images/rectangle.png" style="right:0">
 			</div>
 		</div>
 

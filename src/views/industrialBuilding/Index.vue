@@ -56,17 +56,19 @@
 			</div>
 			</div>
 			<div class="col-lg-6 col-md-12">
-				<img src="@/assets/images/industrial_building/image1.png" alt="">
+				<div class="img-overlay position-absolute"></div>
+				<img src="@/assets/images/industrial_building/image1.png">
 			</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12">
-				<img src="@/assets/images/industrial_building/image1.png" alt="">
+				<div class="img-overlay position-absolute"></div>
+				<img src="@/assets/images/industrial_building/image2.png">
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png">
 				<div>
 					<div class="section-breadcrumbs mb-3">
 						Производство <span class="mx-3">/</span> <strong>Промышленные здания</strong>
@@ -173,6 +175,7 @@
 		<!-- new block -->
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12">
+				<div class="img-overlay position-absolute"></div>
 				<img src="@/assets/images/industrial_building/image3.png" alt="">
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
@@ -271,17 +274,19 @@
 			</div>
 		</div>
 		<div class="col-lg-6 col-md-12">
-			<img src="@/assets/images/industrial_building/image4.png" alt="">
+			<div class="img-overlay position-absolute"></div>
+			<img src="@/assets/images/industrial_building/image4.png">
 		</div>
 		</div>
 
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12">
-				<img src="@/assets/images/industrial_building/image3.png" alt="">
+				<div class="img-overlay position-absolute"></div>
+				<img src="@/assets/images/industrial_building/image5.png">
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png">
 					<div>
 						<div class="section-breadcrumbs mb-3">
 							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
