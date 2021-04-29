@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/hangars/arched/main_1.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/hangars/arched/main_1.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Арочные ангары</h1>
 					</div>
@@ -113,7 +113,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="media">
-					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<p class="mb-5"><span class="ml-4"></span> 
 							Для строительства быстровозводимого ангара <br>
@@ -234,7 +234,7 @@
 			</div>
 
 			<div class="media">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>

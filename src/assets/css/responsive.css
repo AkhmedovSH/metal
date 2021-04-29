@@ -80,6 +80,9 @@
 }
 
 @media (max-width: 576px) {
+	.d-none-mobile {
+		display: none;
+	}
 	.header-recall-btn {
 		display: none;
 	}

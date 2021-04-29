@@ -46,7 +46,7 @@
 					<hr class="mb-5">
 
 					<div class="section-2-description mb-5">
-						<p>
+						<p class="opacity05">
 							<span class="ml-4">Avant Metal Group - компания, которая</span>
 							зарекомендовала себя как надежного и
 							ответственного производителя. Также, тесно

@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/marchs/main_icon.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/marchs/main_icon.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Мархи</h1>
 					</div>
@@ -34,7 +34,7 @@
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description opacity05 mb-5">
 						<p class="mb-3">
 							<span class="ml-4"></span>
 							Одним из интересных и перспективных направлений компании «Avant Metal Group»
@@ -128,7 +128,7 @@
 			</div>
 		</div>
 
-		<div class="page-px py-5 bg-1">
+		<div class="page-px py-5 bg-1 element_bg">
 			<div class="row no-gutters">
 				<div class="col-lg-12 col-md-12">
 					<div class="section-breadcrumbs mb-5">
@@ -215,7 +215,7 @@
 			</div>
 
 			<div class="media">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>

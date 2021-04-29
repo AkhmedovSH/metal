@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/ganty_crane/main_icon.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/ganty_crane/main_icon.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Козловой кран</h1>
 					</div>
@@ -31,7 +31,7 @@
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 						<div>
 							<div class="section-breadcrumbs mb-3">
 								Козловой кран <span class="mx-3">/</span> <strong>Модификации</strong>
@@ -210,7 +210,7 @@
 			</table>
 		</div>
 
-		<div class="page-px bg-2">
+		<div class="page-px bg-2 element_bg">
 			<div class="row no-gutters">
 				<div class="col-lg-12 my-5">
 					<div class="section-breadcrumbs mb-5">
@@ -278,7 +278,7 @@
 			</div>
 			<div class="col-lg-8 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 						<div>
 							<div class="section-breadcrumbs mb-3">
 								Козловые краны <span class="mx-3">/</span> <strong>технические параметры</strong>
@@ -375,7 +375,7 @@
 			</div>
 		</div>
 
-		<div class="row no-gutters bg-1">
+		<div class="row no-gutters bg-1 element_bg">
 			<div class="col-lg-12 col-md-12">
 				<div class="page-px my-5">
 					<div class="section-breadcrumbs mb-5">

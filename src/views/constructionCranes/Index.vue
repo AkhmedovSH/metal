@@ -64,12 +64,12 @@
 		<div class="row no-gutters bg-2">
 			<div class="col-lg-6 col-md-12">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 				<div>
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description opacity05 mb-5">
 						<p>
 							<span class="ml-4"></span>
 							Одним из интересных и перспективных направлений компании «Avant Metal Group» является производство
@@ -96,7 +96,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12">
 				<div class="mx-50 page-px">
-						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 						<div>
 
 						<div class="section-breadcrumbs mb-3">
@@ -108,7 +108,7 @@
 						
 						<hr class="mb-5">
 
-						<div class="section-2-description mb-5">
+						<div class="section-2-description opacity05 mb-5">
 							<p class="mb-3">
 								<span class="ml-4"></span>
 								Козловой кран – это габаритное грузоподъемное устройство мостового типа, предназначенное для перемещения
@@ -130,7 +130,7 @@
 		<div class="row no-gutters bg-2">
 			<div class="col-lg-6 col-md-12">
 				<div class="mx-50 page-px">
-						<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+						<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 						<div>
 
 						<div class="section-breadcrumbs mb-3">
@@ -142,7 +142,7 @@
 						
 						<hr class="mb-5">
 
-						<div class="section-2-description mb-5">
+						<div class="section-2-description opacity05 mb-5">
 							<p class="mb-3">
 								<span class="ml-4"></span>
 								Мостовой кран – представляет собой грузоподъемное оборудование, которое активно

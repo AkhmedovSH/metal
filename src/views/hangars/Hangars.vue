@@ -74,7 +74,7 @@
 			<hr class="mb-5">
 
 			<div class="media mb-5">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p><span class="ml-4"></span> Популярность технологиии изготовления ангаров из <br>
 					металлоконструкций оправдывается огромным  <br>
@@ -260,7 +260,7 @@
 			<div class="col-lg-6 col-md-12">
 				<div class="page-px my-5">
 					<div class="media">
-					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<p class="mb-5"><span class="ml-4"></span> 
 							Для каркасного строительства ангаров и складов применяются ЧМК 

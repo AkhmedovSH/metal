@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/industrial_building/icon_main.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/industrial_building/icon_main.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Промышленные здания</h1>
 					</div>
@@ -30,17 +30,17 @@
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 				<div>
 
 					<hr class="mb-5">
 
 					<div class="section-2-description mb-5">
-						<p>
+						<p class="opacity05">
 							<span class="ml-4"></span>
 							«Avant Metal Group» релизует проекты по проектированию и сооружению АЭС большой мощности и промышленных зданий из ЧМК.
 						</p>
-						<p class="mb-3">
+						<p class="mb-3 opacity05">
 							<span class="ml-4"></span>
 							Технология возведения на металлокаркасе позволяет быстро, качественно, в любой сезон. 
 							с минимальным привлечением рабочец силы и строительной техники возводить производственные 
@@ -66,7 +66,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 				<div>
 					<div class="section-breadcrumbs mb-3">
 						Производство <span class="mx-3">/</span> <strong>Промышленные здания</strong>
@@ -77,7 +77,7 @@
 					
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description opacity05 mb-5">
 						<p class="mb-3">
 							<span class="ml-4"></span>
 							Основная особенность организации строительства промышленных зданий
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 
-		<div class="page-px py-5 bg-1">
+		<div class="page-px py-5 bg-1 element_bg">
 			<div class="row no-gutters">
 				<div class="col-lg-12 col-md-12">
 					<div class="section-breadcrumbs mb-5">
@@ -158,7 +158,7 @@
 			<hr>
 
 			<div class="media mt-5">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4"></span>
@@ -177,7 +177,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 					<div>
 						<div class="section-breadcrumbs mb-3">
 							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
@@ -226,7 +226,7 @@
 		<div class="row no-gutters bg-1">
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 					<div>
 						<div class="section-breadcrumbs mb-3">
 							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
@@ -281,7 +281,7 @@
 			</div>
 			<div class="col-lg-6 col-md-12 bg-ff">
 				<div class="mx-50 page-px">
-					<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+					<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 					<div>
 						<div class="section-breadcrumbs mb-3">
 							Промышленные здания <span class="mx-3">/</span> <strong>Материалы</strong>
@@ -317,7 +317,7 @@
 			</div>
 
 			<div class="media">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>

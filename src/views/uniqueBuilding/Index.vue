@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/unique_buildings/icon1.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/unique_buildings/icon1.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Уникальные здания и сооружения</h1>
 					</div>
@@ -30,13 +30,13 @@
 		<div class="d-flex flex-wrap section-2">
 			<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 			<div class="section-2-left page-px">
-				<img class="section-2-left-bg" src="@/assets/images/section_2_figure.svg" alt="1">
+				<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 				<div>
 
 					<hr class="mb-5">
 
 					<div class="section-2-description mb-5">
-						<p class="mb-3">
+						<p class="mb-3 opacity05">
 							<span class="ml-4"></span>
 							Строительство зданий и сооружений с каждым годом набирает все
 							большие темпы. Крупные города будут расти вверх - таковамировая
@@ -58,13 +58,13 @@
 			</div>
 		</div>
 
-		<div class="page-px py-5 bg-1">
+		<div class="page-px py-5 bg-1 element_bg">
 			<div class="section-breadcrumbs mb-5">
 				Уникальные здания и сооружения <span class="mx-3">/</span> Характеристтики
 			</div>
 
 			<div class="media mb-5">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4"></span>
@@ -113,6 +113,9 @@
 				</div>
 			</div>
 
+		</div>
+
+		<div class="page-px py-5 bg-1 element_bg">
 			<div class="row no-gutters">
 				<div class="col-lg-12 col-md-12">
 					<div class="section-breadcrumbs mb-5">
@@ -201,7 +204,7 @@
 			</div>
 
 			<div class="media">
-				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>

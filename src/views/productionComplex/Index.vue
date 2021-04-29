@@ -15,7 +15,7 @@
 			<div class="about-img-overlay"></div>
 			<div class="position-absolute page-px about-img-content">
 				<div class="media mb-5">
-					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 					<div class="media-body">
 						<h1>Производтвенный комплекс</h1>
 					</div>
@@ -179,7 +179,7 @@
 			<div class="row mb-5">
 				<div class="col-md-6">
 					<div class="media">
-						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
+						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 						<div class="media-body">
 							<p class="color-1"><span class="ml-4"></span> Avant Metal Group ориентирована на предоставление
 								высокотехнологичных и доступных решений в области металлоконструкций и стройматериалов.</p>

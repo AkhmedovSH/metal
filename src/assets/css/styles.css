@@ -407,7 +407,6 @@ video {
 	letter-spacing: 0em;
 	text-align: left;
 	color: #272324;
-	opacity: 0.5;
 }
 
 .button-danger {
@@ -828,4 +827,11 @@ table th {
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.element_bg {
+	background-image: url('../images/element_bg.png');
+	z-index: 1;
+	background-position: right;
+	background-repeat: no-repeat;
 }
