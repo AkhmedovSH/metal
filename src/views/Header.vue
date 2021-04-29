@@ -69,7 +69,11 @@
 							<li><a class="ml-3 child-link-inner" href="#">Гофрированная балка</a></li>
 						</ul>
 					</li>
-					<li class="vertical-center"><a class="parent-link" href="#">Партнеры</a></li>
+					<li class="vertical-center">
+						<router-link class="parent-link" :to="{ name: 'partners' }">
+							Партнеры
+						</router-link>
+					</li>
 					<li class="vertical-center"><a class="parent-link" href="#">Проекты</a></li>
 					<li class="vertical-center header-navbar-ul-li">
 						<a class="parent-link" href="#">О нас</a>

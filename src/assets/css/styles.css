@@ -829,6 +829,13 @@ table th {
 	background-size: cover;
 }
 
+.partners_bg {
+	background-image: url('../images/partners/main_bg.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .element_bg {
 	background-image: url('../images/element_bg.png');
 	z-index: 1;
