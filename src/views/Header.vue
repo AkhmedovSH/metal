@@ -93,7 +93,11 @@
 							</li>
 						</ul>
 					</li>
-					<li class="vertical-center"><a class="parent-link" href="#">Новости</a></li>
+					<li class="vertical-center">
+						<router-link class="parent-link" :to="{ name: 'news' }">
+							Новости
+						</router-link>
+					</li>
 					<li class="vertical-center">
 						<router-link class="parent-link" :to="{ name: 'contact' }">
 							Контакты
