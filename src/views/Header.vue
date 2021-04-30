@@ -74,7 +74,11 @@
 							Партнеры
 						</router-link>
 					</li>
-					<li class="vertical-center"><a class="parent-link" href="#">Проекты</a></li>
+					<li class="vertical-center">
+						<router-link class="parent-link" :to="{ name: 'projects' }">
+							Проекты
+						</router-link>
+					</li>
 					<li class="vertical-center header-navbar-ul-li">
 						<a class="parent-link" href="#">О нас</a>
 						<ul class="child-ul child-ul-big">

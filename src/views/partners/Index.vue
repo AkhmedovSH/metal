@@ -60,7 +60,60 @@
 			</div>
 		</div>
 
+		<div class="row no-gutters">
+			<div class="col-lg-6 col-md-12 bg-5">
+				<div class="d-flex flex-wrap justify-content-around page-px my-5">
+					<img src="@/assets/images/partners/image1.png">
+					<div class="w-50">
+						<h3>Voortman steel <br> machinery</h3>
+						<p>(Нидерланды)</p>
+						<hr>
+						<p>Автоматизированная линия по <br> обработке металлопроката.</p>
+					</div>
+				</div>
+				<div class="position-relative">
+					<div class="img-overlay position-absolute"></div>
+					<img src="@/assets/images/partners/image3.png">
+				</div>
+				<div class="d-flex flex-wrap justify-content-around page-px my-5">
+					<img src="@/assets/images/partners/image4.png">
+					<div class="w-50">
+						<h3>GG Group. HGG Pipe profiling equipment. </h3>
+						<p>(Нидерланды)</p>
+						<hr>
+						<p>Линия по 3D профилированию труб. </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="position-relative">
+					<div class="img-overlay position-absolute"></div>
+					<img src="@/assets/images/partners/image2.png">
+				</div>
+				<div class="d-flex flex-wrap justify-content-around page-px my-5">
+					<img src="@/assets/images/partners/image6.png">
+					<div class="w-50">
+						<h3>NUOVA C.M.M.</h3>
+						<p>(Италия)</p>
+						<hr>
+						<p>Линия производства сварной балки. </p>
+					</div>
+				</div>
+				<div class="position-relative">
+					<div class="img-overlay position-absolute"></div>
+					<img src="@/assets/images/partners/image5.png">
+				</div>
+			</div>
+		</div>
 
+		<news></news>
 
 	</div>
 </template>
+
+<script>
+import News from '@/components/News.vue'
+export default {
+	components: { News },
+}
+</script>

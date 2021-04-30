@@ -836,9 +836,24 @@ table th {
 	background-size: cover;
 }
 
+.projects_bg {
+	background-image: url('../images/projects/main_bg.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .element_bg {
 	background-image: url('../images/element_bg.png');
 	z-index: 1;
 	background-position: right;
 	background-repeat: no-repeat;
+}
+
+.partners-block {
+	height: 408px;
+}
+
+.partners-block-right {
+	width: 400px;
 }

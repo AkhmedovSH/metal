@@ -16,7 +16,7 @@
 									быть уверены. 
 								</p>
 								<hr>
-								<div class="d-flex flex-wrap">
+								<div class="d-flex">
 									<div class="footer-icon">
 										<img src="@/assets/images/general/facebook-w.svg" width="16">
 									</div>
