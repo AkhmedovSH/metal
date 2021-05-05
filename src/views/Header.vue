@@ -64,7 +64,11 @@
 								</router-link>
 							</li>
 							<li><a class="ml-3 child-link-inner" href="#">Мостовые краны</a></li>
-							<li><a class="child-link" href="#">Металлопрокат</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'rolledMetal' }">
+									Металлопрокат
+								</router-link>
+							</li>
 							<li><a class="ml-3 child-link-inner" href="#">Двутавр</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Тавр</a></li>
 							<li><a class="ml-3 child-link-inner" href="#">Швеллер</a></li>
