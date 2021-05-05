@@ -836,6 +836,13 @@ table th {
 	background-size: cover;
 }
 
+.design_department_bg {
+	background-image: url('../images/design_department/main_bg.png');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .projects_bg {
 	background-image: url('../images/projects/main_bg.png');
 	height: 500px;

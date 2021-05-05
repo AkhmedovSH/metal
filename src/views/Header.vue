@@ -13,7 +13,11 @@
 					<li class="vertical-center header-navbar-ul-li">
 						<a class="parent-link" href="#">Услуги</a>
 						<ul class="child-ul child-ul-big">
-							<li><a class="child-link" href="#">Конструкторское бюро</a></li>
+							<li>
+								<router-link class="child-link" :to="{ name: 'designDepartment' }">
+									Конструкторское бюро
+								</router-link>
+							</li>
 							<li><a class="child-link" href="#">Здание на проектирование</a></li>
 						</ul>
 					</li>
