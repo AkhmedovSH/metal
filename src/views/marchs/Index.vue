@@ -30,7 +30,10 @@
 		<div class="d-flex flex-wrap section-2 position-relative">
 			<img class="triangle" src="@/assets/images/triangle.png" alt="1">
 			<div class="section-2-left page-px">
-				<div>
+				<div
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 
 					<hr class="mb-5">
 
@@ -141,14 +144,20 @@
 
 					<div class="row mx-md-n5">
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1000"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon5.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Спортивные, зрелищные культовые сооружения;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1600"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon6.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Торгово-развлекательные комплексы;</p>
@@ -156,14 +165,20 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1200"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon7.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Многофункциональные офисы;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1800"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon8.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Гостиницы;</p>
@@ -171,14 +186,20 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1400"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon9.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Выставочные павильоны;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="2000"
+							data-aos-once="true">
 								<img src="@/assets/images/marchs/icon10.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Аэропорты;</p>
@@ -216,7 +237,10 @@
 
 			<div class="media">
 				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
-				<div class="media-body">
+				<div class="media-body"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
 						надежного и ответственного производителя, в продукции<br>

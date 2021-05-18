@@ -166,14 +166,20 @@
 
 					<div class="row mx-md-n5">
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1000"
+							data-aos-once="true">
 								<img src="@/assets/images/hangars/arched/arched_icon_1.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Простота технологии сборки.</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="2500"
+							data-aos-once="true">
 								<img src="@/assets/images/hangars/arched/arched_icon_2.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Возможность продать ангар как товар без привязки к земле, как набор металлоконструкций.</p>
@@ -181,14 +187,20 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/hangars/arched/arched_icon_3.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Конструкция допускает любое количество окон, возможность естественного освещения.</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="3000"
+							data-aos-once="true">
 								<img src="@/assets/images/hangars/arched/arched_icon_4.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Благодаря уменьшенной нагрузке на фундамент появляется возможность использовать винтовые сваи.</p>
@@ -196,7 +208,10 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="2000"
+							data-aos-once="true">
 								<img src="@/assets/images/hangars/arched/arched_icon_5.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Уменьшенная нагрузка на фундамент.</p>
@@ -236,7 +251,10 @@
 			<div class="media">
 				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
 				<div class="media-body">
-					<p>
+					<p
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					data-aos-once="true">
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
 						надежного и ответственного производителя, в продукции<br>
 						которого вы можете быть уверены.

@@ -35,7 +35,10 @@
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description mb-5"
+					data-aos="fade-up"
+					data-aos-duration="1000"
+					data-aos-once="true">
 						<p class="mb-3 opacity05">
 							<span class="ml-4"></span>
 							Строительство зданий и сооружений с каждым годом набирает все
@@ -65,7 +68,10 @@
 
 			<div class="media mb-5">
 				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
-				<div class="media-body">
+				<div class="media-body"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<p>
 						<span class="ml-4"></span>
 						К уникальным сооружениям относятся те объекты, <br>
@@ -79,7 +85,10 @@
 				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 					<div class="media mb-5">
 						<img src="@/assets/images/unique_buildings/icon_2.svg" alt="1" class="mr-5">
-						<div class="media-body section-6-blocks main-color">
+						<div class="media-body section-6-blocks main-color"
+						data-aos="flip-left"
+						data-aos-duration="1000"
+						data-aos-once="true">
 							<p>
 								Использование конструкций и конструктивных систем, требующих нестандартных методов расчета, эксперементальной проверки на физических моделях, применяемых на территориях с сесмичностью до 9 баллов;
 							</p>
@@ -89,14 +98,20 @@
 				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 					<div class="media mb-5">
 						<img src="@/assets/images/unique_buildings/icon_3.svg" alt="1" class="mr-5">
-						<div class="media-body section-6-blocks main-color">
+						<div class="media-body section-6-blocks main-color"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 							<p>Пролет более 60 м ;</p>
 						</div>
 					</div>
 
 					<div class="media mb-5">
 						<img src="@/assets/images/unique_buildings/icon_4.svg" alt="1" class="mr-5">
-						<div class="media-body section-6-blocks main-color">
+						<div class="media-body section-6-blocks main-color"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 							<p>Высота более 50 м ;</p>
 						</div>
 					</div>
@@ -104,7 +119,10 @@
 				<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
 					<div class="media mb-5">
 						<img src="@/assets/images/unique_buildings/icon_5.svg" alt="1" class="mr-5">
-						<div class="media-body section-6-blocks main-color">
+						<div class="media-body section-6-blocks main-color"
+						data-aos="flip-left"
+						data-aos-duration="2000"
+						data-aos-once="true">
 							<p>
 								Заглубление подземной части ниже (полностью или частично) планировочной отметки земли более чем на 15 м, с пролетом более 50 м или со строительным объемом более 100 тыс.м³ и с одновременным пребыванием более 500 человек. 
 							</p>
@@ -128,21 +146,30 @@
 
 					<div class="row mx-md-n5">
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon1.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Спортивные, зрелищные культовые сооружения;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon2.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Торгово-развлекательные комплексы;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon3.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Вокзалы;</p>
@@ -150,21 +177,30 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon4.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Многофункциональные офисы;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon5.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Гостиницы;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon6.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Музеи;</p>
@@ -172,21 +208,30 @@
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6 col-sm-12 px-md-5">
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon7.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Выставочные павильоны;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon8.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Аэропорты;</p>
 								</div>
 							</div>
 
-							<div class="media mb-5">
+							<div class="media mb-5"
+							data-aos="flip-left"
+							data-aos-duration="1500"
+							data-aos-once="true">
 								<img src="@/assets/images/unique_buildings/unique_icon9.svg" alt="1" class="mr-5">
 								<div class="media-body section-6-blocks main-color">
 									<p>Помещения характерезующиеся эксклюзивным экстерьером и вместительностью более 1 тыс. человек.</p>
@@ -205,7 +250,10 @@
 
 			<div class="media">
 				<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
-				<div class="media-body">
+				<div class="media-body"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<p>
 						<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
 						надежного и ответственного производителя, в продукции<br>

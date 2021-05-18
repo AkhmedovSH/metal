@@ -46,7 +46,11 @@
 					<hr class="mb-5">
 
 					<div class="section-2-description mb-5">
-						<p class="opacity05">
+						<p
+						data-aos="fade-up"
+						data-aos-duration="1000" 
+						data-aos-once="true"
+						class="opacity05">
 							<span class="ml-4">Avant Metal Group - компания, которая</span>
 							зарекомендовала себя как надежного и
 							ответственного производителя. Также, тесно
@@ -91,14 +95,22 @@
 								<div class="section-3-block-icon"></div>
 							</div>
 							<div class="section-3-block-content">
-								<div class="section-3-block-body">
+								<div class="section-3-block-body"
+								data-aos="fade-down"
+								data-aos-duration="1000" 
+								data-aos-once="true">
 									<h1 class="section-3-title">30 000 т.</h1>
 									<p class="section-3-description">
 										производственной мощности
 									</p>
 								</div>
-								<div class="section-3-text">
-									<span class="ml-4"></span>В 2021 году AKFA Build планирует достичь 30 000 тонн производственной мощности завода.
+								<div
+								data-aos="fade-up"
+								data-aos-duration="1000" 
+								data-aos-once="true">
+									<div class="section-3-text">
+										<span class="ml-4"></span>В 2021 году AKFA Build планирует достичь 30 000 тонн производственной мощности завода.
+									</div>
 								</div>
 							</div>
 						</div>
@@ -109,14 +121,22 @@
 								<div class="section-3-block-icon"></div>
 							</div>
 							<div class="section-3-block-content">
-								<div class="section-3-block-body">
+								<div class="section-3-block-body"
+								data-aos="fade-down"
+								data-aos-duration="1000" 
+								data-aos-once="true">
 									<h1 class="section-3-title">22 000</h1>
 									<p class="section-3-description">
 										квадратных метров
 									</p>
 								</div>
-								<div class="section-3-text">
+								<div
+								data-aos="fade-up"
+								data-aos-duration="1000" 
+								data-aos-once="true">
+									<div class="section-3-text">
 									<span class="ml-4"></span>Площадь производственного комплекса составляет более 22 тысяч квадратных метров.
+								</div>
 								</div>
 							</div>
 						</div>
@@ -127,14 +147,22 @@
 								<div class="section-3-block-icon"></div>
 							</div>
 							<div class="section-3-block-content">
-								<div class="section-3-block-body">
+								<div class="section-3-block-body"
+								data-aos="fade-down"
+								data-aos-duration="1000" 
+								data-aos-once="true">
 									<h1 class="section-3-title">250</h1>
 									<p class="section-3-description">
 										человек
 									</p>
 								</div>
-								<div class="section-3-text">
-									<span class="ml-4">Штат сотрудников насчитывает</span><br>250 человек.
+								<div
+								data-aos="fade-up"
+								data-aos-duration="1000" 
+								data-aos-once="true">
+									<div class="section-3-text">
+										<span class="ml-4">Штат сотрудников насчитывает</span><br>250 человек.
+									</div>
 								</div>
 							</div>
 						</div>
@@ -242,13 +270,13 @@
 
 				<hr class="mb-5">
 
-				<div class="media"
-				data-aos="fade-down" 
-				data-aos-duration="1000" 
-				data-aos-once="true">
+				<div class="media">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
 					<div class="media-body">
-						<p><span class="ml-4">На</span> площади комплекса размещено оборудование <br> мировыхлидеров в области металлообработки, таких как: </p>
+						<p
+						data-aos="fade-up"
+						data-aos-duration="1000" 
+						data-aos-once="true"><span class="ml-4">На</span> площади комплекса размещено оборудование <br> мировыхлидеров в области металлообработки, таких как: </p>
 					</div>
 				</div>
 				
@@ -319,12 +347,13 @@
 				<div class="d-flex justify-content-between flex-wrap">
 					<div class="media mb-5">
 						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
-						<div class="media-body"
-						data-aos="fade-down" 
-						data-aos-duration="1000" 
-						data-aos-once="true">
+						<div class="media-body">
 							<h5 class="mb-5">Разработка чертежей КМ и КМД</h5>
-							<p class="m-0 opacity05">
+							<p 
+							data-aos="fade-up" 
+							data-aos-duration="1000" 
+							data-aos-once="true"
+							class="m-0 opacity05">
 								<span class="ml-4">Исходным</span> документом для проектирования любого здания или <br>
 								 сооружения является задание на проектирование, составленное <br> заказчиком.
 							</p>
@@ -341,10 +370,7 @@
 
 				<div class="media mb-5">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="64" width="64">
-					<div class="media-body"
-					data-aos="fade-down" 
-					data-aos-duration="1000" 
-					data-aos-once="true">
+					<div class="media-body">
 						<h5>Перечень работ по проектированию на стадии КМ:</h5>
 					</div>
 				</div>
@@ -358,14 +384,21 @@
 					<div class="media mb-5">
 						<img src="@/assets/images/section6/1.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Создание 3D расчётной схемы каркаса сооружения</p>
+							<p
+							data-aos="flip-left"
+							data-aos-duration="1000" 
+							data-aos-once="true">Создание 3D расчётной схемы каркаса сооружения</p>
 						</div>
 					</div>
 
 					<div class="media mb-5">
 						<img src="@/assets/images/section6/2.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
+							<p
+							data-aos="flip-left"
+							data-aos-duration="1200" 
+							data-aos-once="true"
+							>Сбор постоянных и временных нагрузок, действующих на сооружение</p>
 						</div>
 					</div>
 				</div>
@@ -373,14 +406,22 @@
 					<div class="media mb-5">
 						<img src="@/assets/images/section6/3.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Стадия расчетов, графического анализа и подбора сечений профилей</p>
+							<p
+							data-aos="flip-left"
+							data-aos-duration="1400" 
+							data-aos-once="true"
+							>Стадия расчетов, графического анализа и подбора сечений профилей</p>
 						</div>
 					</div>
 
 					<div class="media mb-5">
 						<img src="@/assets/images/section6/4.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Разработка принципиальных узловых соединений элементов конструкции</p>
+							<p
+							data-aos="flip-left"
+							data-aos-duration="1600" 
+							data-aos-once="true"
+							>Разработка принципиальных узловых соединений элементов конструкции</p>
 						</div>
 					</div>
 				</div>
@@ -388,7 +429,11 @@
 					<div class="media mb-5">
 						<img src="@/assets/images/section6/5.svg" alt="1" class="mr-5">
 						<div class="media-body section-6-blocks">
-							<p>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические)</p>
+							<p
+							data-aos="flip-left"
+							data-aos-duration="1800" 
+							data-aos-once="true"
+							>Выпуск комплектов чертежей проектной (стадия П) и/или рабочей документации (стадия Р) марки КМ (конструкции металлические)</p>
 						</div>
 					</div>
 				</div>
@@ -405,7 +450,10 @@
 				<div class="media">
 					<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
 					<div class="media-body">
-						<p>
+						<p 
+						data-aos="fade-up"
+						data-aos-duration="1000" 
+						data-aos-once="true">
 							<span class="ml-4">Компания</span> Avant Metal Group зарекомендовала себя как <br>
 							надежного и ответственного производителя, в продукции<br>
 							которого вы можете быть уверены.
@@ -486,6 +534,7 @@ export default {
 			showMenu: false,
 			productionTypes: {
 				dots: false,
+				autoplay: true,
 				arrows: true,
 				infinite: true,
 				speed: 500,
@@ -515,6 +564,7 @@ export default {
 			},
 			slider3: {
 				dots: false,
+				autoplay: true,
 				arrows: true,
 				infinite: true,
 				speed: 500,

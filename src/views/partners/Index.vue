@@ -27,7 +27,10 @@
 		<div class="page-px py-5 bg-2 position-relative">
 			<img src="@/assets/images/section_2_figure.svg" alt="1" class="section-2-left-bg" width="200" style="top:0">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6"
+				data-aos="fade-up"
+				data-aos-duration="1000" 
+				data-aos-once="true">
 					<hr>
 					<p class="section-3-text mb-4 px-3">
 						<span class="ml-4"></span>
@@ -35,7 +38,10 @@
 						зарубежными компаниями в таких странах как Корея, Турция, Китай, Россия.
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6"
+				data-aos="fade-up"
+				data-aos-duration="1000" 
+				data-aos-once="true">
 					<hr>
 					<p class="section-3-text px-3">
 						<span class="ml-4"></span> 
@@ -50,7 +56,10 @@
 				<div class="col-md-6">
 					<div class="media">
 						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5" height="96">
-						<div class="media-body">
+						<div class="media-body"
+						data-aos="fade-up"
+						data-aos-duration="1000" 
+						data-aos-once="true">
 							<p class="color-1"><span class="ml-4"></span>
 							На площади комплекса размещено оборудование мировых лидеров в области металлообработки, таких как: 
 							</p>

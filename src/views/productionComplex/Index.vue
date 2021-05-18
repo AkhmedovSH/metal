@@ -29,7 +29,10 @@
 		<div class="page-px py-5 bg-2 position-relative">
 			<img src="@/assets/images/section_2_figure.svg" alt="1" class="section-2-left-bg" width="200" style="top:0">
 			<div class="row mb-5">
-				<div class="col-md-6">
+				<div class="col-md-6"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<hr>
 					<p class="section-3-text mb-4 px-3">
 						<span class="ml-4"></span>
@@ -38,7 +41,10 @@
 						и услуг применяемых <br> в строительстве больших высотных зданий.
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<hr>
 					<p class="section-3-text px-3">
 						<span class="ml-4"></span> Площадь производственного комплекса составляет более 22 <br>
@@ -51,56 +57,80 @@
 			<hr class="mb-5">
 
 			<div class="row">
-				<div class="col-md-4 mb-5">
+				<div class="col-md-12 col-lg-4 mb-5">
 					<div class="d-flex flex-wrap">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
 						<div class="section-3-block-content">
-							<div class="section-3-block-body">
+							<div class="section-3-block-body"
+							data-aos="fade-down"
+							data-aos-duration="1000" 
+							data-aos-once="true">
 								<h1 class="section-3-title">30 000 т.</h1>
 								<p class="section-3-description">
 									производственной мощности
 								</p>
 							</div>
-							<div class="section-3-text">
-								<span class="ml-4"></span>В 2021 году AKFA Build планирует достичь 30 000 тонн производственной мощности завода.
+							<div
+							data-aos="fade-up"
+							data-aos-duration="1000" 
+							data-aos-once="true">
+								<div class="section-3-text">
+									<span class="ml-4"></span>В 2021 году AKFA Build планирует достичь 30 000 тонн производственной мощности завода.
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-12 col-lg-4 mb-5">
 					<div class="d-flex">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
 						<div class="section-3-block-content">
-							<div class="section-3-block-body">
+							<div class="section-3-block-body"
+							data-aos="fade-down"
+							data-aos-duration="1000" 
+							data-aos-once="true">
 								<h1 class="section-3-title">22 000</h1>
 								<p class="section-3-description">
 									квадратных метров
 								</p>
 							</div>
-							<div class="section-3-text">
+							<div
+							data-aos="fade-up"
+							data-aos-duration="1000" 
+							data-aos-once="true">
+								<div class="section-3-text">
 								<span class="ml-4"></span>Площадь производственного комплекса составляет более 22 тысяч квадратных метров.
+							</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-5">
+				<div class="col-md-12 col-lg-4 mb-5">
 					<div class="d-flex">
 						<div class="section-3-block-icon-wrapper">
 							<div class="section-3-block-icon"></div>
 						</div>
 						<div class="section-3-block-content">
-							<div class="section-3-block-body">
+							<div class="section-3-block-body"
+							data-aos="fade-down"
+							data-aos-duration="1000" 
+							data-aos-once="true">
 								<h1 class="section-3-title">250</h1>
 								<p class="section-3-description">
 									человек
 								</p>
 							</div>
-							<div class="section-3-text">
-								<span class="ml-4">Штат сотрудников насчитывает</span><br>250 человек.
+							<div
+							data-aos="fade-up"
+							data-aos-duration="1000" 
+							data-aos-once="true">
+								<div class="section-3-text">
+									<span class="ml-4">Штат сотрудников насчитывает</span><br>250 человек.
+								</div>
 							</div>
 						</div>
 					</div>
@@ -115,12 +145,17 @@
 						<div class="h-100 about-slogan_block">
 							<div class="h-100 bg-4 p-5">
 								<img class="ml-3 mb-4" src="@/assets/images/about/about_line.svg">
-								<p class="color-2 about-slogan_block_text">
-									На площади комплекса <br>
-									размещено оборудование <br>
-									мировых лидеров в области <br>
-									металлообработки лучше.
-								</p>
+								<div
+								data-aos="zoom-in"
+								data-aos-duration="1000" 
+								data-aos-once="true">
+									<p class="color-2 about-slogan_block_text">
+										На площади комплекса <br>
+										размещено оборудование <br>
+										мировых лидеров в области <br>
+										металлообработки лучше.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -180,7 +215,10 @@
 				<div class="col-md-6">
 					<div class="media">
 						<img src="@/assets/images/red_element.svg" alt="logo" class="mr-5 d-none-mobile" height="96">
-						<div class="media-body">
+						<div class="media-body"
+						data-aos="fade-up"
+						data-aos-duration="1000"
+						data-aos-once="true">
 							<p class="color-1"><span class="ml-4"></span> Avant Metal Group ориентирована на предоставление
 								высокотехнологичных и доступных решений в области металлоконструкций и стройматериалов.</p>
 						</div>
@@ -189,7 +227,10 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="1000"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_1.svg">
@@ -197,7 +238,10 @@
 						<p class="text-center">Уникальные <br>здания</p>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="1200"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_2.svg">
@@ -205,7 +249,10 @@
 						<p class="text-center">Мархи</p>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="1400"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_3.svg">
@@ -213,7 +260,10 @@
 						<p class="text-center">Ангары</p>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="1600"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_4.svg">
@@ -221,7 +271,10 @@
 						<p class="text-center">Промышленные <br>здания</p>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="1800"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_5.svg">
@@ -229,7 +282,10 @@
 						<p class="text-center">Строительные <br>краны</p>
 					</div>
 				</div>
-				<div class="col-lg-2 col-md-4 mb-5">
+				<div class="col-lg-2 col-md-4 mb-5"
+				data-aos="flip-left"
+				data-aos-duration="2000"
+				data-aos-once="true">
 					<div class="bg-1 py-5 icons-block">
 						<div class="d-flex justify-content-center mb-3">
 							<img src="@/assets/images/about/about_icon_6.svg">

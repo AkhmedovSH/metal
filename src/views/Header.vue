@@ -18,7 +18,7 @@
 									Конструкторское бюро
 								</router-link>
 							</li>
-							<li><a class="child-link" href="#">Здание на проектирование</a></li>
+							<!-- <li><a class="child-link" href="#">Здание на проектирование</a></li> -->
 						</ul>
 					</li>
 					<li class="vertical-center header-navbar-ul-li">
@@ -120,11 +120,11 @@
 							</div>
 						</div>
 					</div>
-					<div class="d-flex justify-content-center header-search-block">
+					<!-- <div class="d-flex justify-content-center header-search-block">
 						<div class="vertical-center ">
 							<img src="@/assets/images/Icon_search.svg" alt="icon_search" width="32">
 						</div>
-					</div>
+					</div> -->
 					<div class="header-recall-btn cursor-pointer px-5">
 						<div class="color-fb text-center">Заказать звонок</div>
 					</div>

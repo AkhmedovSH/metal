@@ -38,7 +38,10 @@
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description mb-5"
+						data-aos="fade-up"
+						data-aos-duration="1000" 
+						data-aos-once="true">
 						<p class="mb-5 opacity05">
 							<span class="ml-4"></span> 
 							Мы стремимся к тому, чтобы все наши решения и технологии были максимально полезны на практике и делали жизнь лучше.  <br>
@@ -83,7 +86,10 @@
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description mb-5"
+					data-aos="fade-up"
+					data-aos-duration="1000" 
+					data-aos-once="true">
 						<p class="mb-5 opacity05">
 							<span class="ml-4"></span> 
 							По задумке австралийских архитекторов, «Здание-лотос» ,состоящее из трех частей, символизирует три этапа в жизни цветка лотоса.
@@ -112,7 +118,10 @@
 
 					<hr class="mb-5">
 
-					<div class="section-2-description mb-5">
+					<div class="section-2-description mb-5"
+					data-aos="fade-up"
+					data-aos-duration="1000" 
+					data-aos-once="true">
 						<p class="mb-5 opacity05">
 							<span class="ml-4"></span> 
 							Композиция из бронзовой охры была вдохновлена образами Пантеона. Выгнутая стеклянная поверхность охватывает диагональный разрез, пронизывающий здание.
@@ -138,7 +147,11 @@
 				<span class="ml-4"></span>
 				<img src="@/assets/images/projects/line.svg" alt="1">
 			</div>
-			<h4>Мы стремимся к тому, чтобы все наши решения и технологии были максимально полезны на практике и делали жизнь лучше. </h4>
+			<h4
+			data-aos="zoom-in"
+			data-aos-duration="1000" 
+			data-aos-once="true"
+			>Мы стремимся к тому, чтобы все наши решения и технологии были максимально полезны на практике и делали жизнь лучше. </h4>
 		</div>
 
 		<news></news>
